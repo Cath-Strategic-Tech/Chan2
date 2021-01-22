@@ -1,0 +1,28 @@
+minimum_cumulusci_version: '3.26.0'
+project:
+    name: Chan2
+    package:
+        name: Chan2
+        namespace: Chan2
+        api_version: '50.0'
+    dependencies:
+        - github: 'https://github.com/SalesforceFoundation/NPSP'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/Chan2/tests
+            options:
+                outputdir: robot/Chan2/results
+
+    robot_testdoc:
+        options:
+            path: robot/Chan2/tests
+            output: robot/Chan2/doc/Chan2_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
