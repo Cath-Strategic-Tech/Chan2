@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Parish/Mission</fullName>
+                <default>false</default>
+                <label>Parish/Mission</label>
+            </value>
+            <value>
+                <fullName>School</fullName>
+                <default>false</default>
+                <label>School</label>
+            </value>
+            <value>
+                <fullName>Religious Community</fullName>
+                <default>false</default>
+                <label>Religious Community</label>
+            </value>
+            <value>
+                <fullName>Apostolate</fullName>
+                <default>false</default>
+                <label>Apostolate</label>
+            </value>
+            <value>
+                <fullName>Chaplaincy</fullName>
+                <default>false</default>
+                <label>Chaplaincy</label>
+            </value>
+            <value>
+                <fullName>Archdiocesan Ministry</fullName>
+                <default>false</default>
+                <label>Archdiocesan Ministry</label>
+            </value>
+            <value>
+                <fullName>Committee_Counsel_Board</fullName>
+                <default>false</default>
+                <label>Committee, Counsel, Board</label>
+            </value>
+            <value>
+                <fullName>In Residence (without other assignments)</fullName>
+                <default>false</default>
+                <label>In Residence (without other assignments)</label>
+            </value>
+            <value>
+                <fullName>Retirement</fullName>
+                <default>false</default>
+                <label>Retirement</label>
+            </value>
+            <value>
+                <fullName>Sabbatical</fullName>
+                <default>false</default>
+                <label>Sabbatical</label>
+            </value>
+            <value>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+                <label>On Leave</label>
+            </value>
+            <value>
+                <fullName>Employment (Priesthood, Perm. Diaconate)</fullName>
+                <default>false</default>
+                <label>Employment (Priesthood, Perm. Diaconate)</label>
+            </value>
+            <value>
+                <fullName>On Loan</fullName>
+                <default>false</default>
+                <label>On Loan</label>
+            </value>
+            <value>
+                <fullName>Study Leave</fullName>
+                <default>false</default>
+                <label>Study Leave</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

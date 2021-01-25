@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Ministry__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Ministry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Parish-based ministry</fullName>
+                <default>false</default>
+                <label>Parish-based ministry</label>
+            </value>
+            <value>
+                <fullName>Regional or deanery ministry</fullName>
+                <default>false</default>
+                <label>Regional or deanery ministry</label>
+            </value>
+            <value>
+                <fullName>Archdiocesan ministry</fullName>
+                <default>false</default>
+                <label>Archdiocesan ministry</label>
+            </value>
+            <value>
+                <fullName>Campus ministry or chaplaincy</fullName>
+                <default>false</default>
+                <label>Campus ministry or chaplaincy</label>
+            </value>
+            <value>
+                <fullName>Religious movement</fullName>
+                <default>false</default>
+                <label>Religious movement</label>
+            </value>
+            <value>
+                <fullName>Non-profit organization</fullName>
+                <default>false</default>
+                <label>Non-profit organization</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

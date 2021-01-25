@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Religious_Compact</fullName>
+    <fields>Name</fields>
+    <fields>Primary_Assignment__c</fields>
+    <fields>Religious_Order__c</fields>
+    <fields>Religious_Suffix__c</fields>
+    <fields>npe01__WorkPhone__c</fields>
+    <fields>npe01__WorkEmail__c</fields>
+    <label>Religious Compact</label>
+</CompactLayout>

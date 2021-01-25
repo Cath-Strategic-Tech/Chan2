@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Members__c</fullName>
+    <description>2020/09/20 MDM - For Chancery (Justine), to facilitate running reports on religious order that only have men or women in them. Note: Some religious orders have both men and women.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is this religious group primarily for men, women, couples, or families?</inlineHelpText>
+    <label>Type of Members</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Men</fullName>
+                <default>false</default>
+                <label>Men</label>
+            </value>
+            <value>
+                <fullName>Women</fullName>
+                <default>false</default>
+                <label>Women</label>
+            </value>
+            <value>
+                <fullName>Couples</fullName>
+                <default>false</default>
+                <label>Couples</label>
+            </value>
+            <value>
+                <fullName>Families</fullName>
+                <default>false</default>
+                <label>Families</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

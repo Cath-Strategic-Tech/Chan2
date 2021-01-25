@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_of_Incardination__c</fullName>
+    <description>Date a Religious or Temporary Sojourn priest was recognized as a priest of the RCAV.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date a Religious or Temporary Sojourn priest was recognized as a priest of the RCAV.</inlineHelpText>
+    <label>Date of Incardination</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

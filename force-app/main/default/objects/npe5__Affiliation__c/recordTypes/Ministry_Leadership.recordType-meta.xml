@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ministry_Leadership</fullName>
+    <active>true</active>
+    <label>Ministry Leadership</label>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Full Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Time %2F Stipend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volunteer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe5__Status__c</picklist>
+        <values>
+            <fullName>Current</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Former</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Related_Opportunity_Contact_Role__c</picklist>
+        <values>
+            <fullName>Soft Credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

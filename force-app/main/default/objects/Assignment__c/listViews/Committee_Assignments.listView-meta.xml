@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Committee_Assignments</fullName>
+    <columns>NAME</columns>
+    <columns>Committee__c</columns>
+    <columns>Position__c</columns>
+    <columns>Active__c</columns>
+    <columns>Primary_Assignment__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Account__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Assignment__c.Committee</value>
+    </filters>
+    <label>Committee Assignments</label>
+</ListView>

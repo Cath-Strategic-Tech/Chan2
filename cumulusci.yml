@@ -13,121 +13,147 @@ project:
 
 tasks:
 
-    add_standard_value_set_entries:
+  add_standard_value_set_entries_salutation:
+    description: Adds specified picklist entries to Case Origin Standard Value Set.
+    class_path: cumulusci.tasks.metadata_etl.AddValueSetEntries
+    options:
+      api_names:
+        - Salutation
+      entries:
+        - label: Mr.
+          fullName: Mr.
+        - label: Dr.
+          fullName: Dr.
+        - label: Prof.
+          fullName: Prof.
+        - label: Rev.
+          fullName: Rev.
+        - label: Rev. Msgr.
+          fullName: Rev. Msgr.
+        - label: Most Rev.
+          fullName: Most Rev.
+        - label: Very Rev.
+          fullName: Very Rev.
+        - label: Rt. Rev.
+          fullName: Rt. Rev.
+        - label: Rev. Mr.
+          fullName: Rev. Mr.
+        - label: Rev. Dr.
+          fullName: Rev. Dr.
+        - label: Sr.
+          fullName: Sr.
+        - label: Br.
+          fullName: Br.
+        - label: Fr.
+          fullName: Fr.
+        - label: Friar
+          fullName: Friar
+        - label: Hon.
+          fullName: Hon.
+        - label: Judge
+          fullName: Judge
+
+  add_standard_value_set_entries_account_type:
+    description: Adds specified picklist entries to Case Origin Standard Value Set.
+    class_path: cumulusci.tasks.metadata_etl.AddValueSetEntries
+    options:
+      api_names:
+        - AccountType
+      entries:
+        - label: Diocese
+          fullName: Diocese
+        - label: Parish
+          fullName: Parish
+        - label: Mission
+          fullName: Mission
+        - label: Non-Catholic Christian Church
+          fullName: Non-Catholic Christian Church
+        - label: Non-Christian Religious Congregation
+          fullName: Non-Christian Religious Congregation
+        - label: Lay Movement
+          fullName: Lay Movement
+        - label: Non-Denominational Ministry
+          fullName: Non-Denominational Ministry
+        - label: Corporate
+          fullName: Corporate
+        - label: Government
+          fullName: Government
+        - label: Healthcare
+          fullName: Healthcare
+        - label: Nonprofit or Charity
+          fullName: Nonprofit or Charity
+        - label: Foundation
+          fullName: Foundation
+        - label: Congregation
+          fullName: Congregation
+        - label: Local Community
+          fullName: Local Community
+        - label: Society
+          fullName: Society
+        - label: Fraternity
+          fullName: Fraternity
+        - label: Prelature
+          fullName: Prelature
+        - label: Association
+          fullName: Association
+        - label: Convent
+          fullName: Convent
+        - label: Monastery
+          fullName: Monastery
+        - label: Retreat Centre
+          fullName: Retreat Centre
+        - label: Elementary School
+          fullName: Elementary School
+        - label: High School
+          fullName: High School
+        - label: K-12
+          fullName: K-12
+        - label: College
+          fullName: College
+        - label: Seminary
+          fullName: Seminary
+        - label: Order
+          fullName: Order
+        - label: University
+          fullName: University
+        - label: Residence
+          fullName: Residence
+
+  list_changes:
+    name: List Changes from Scratch Org
+    description: List the changes from a scratch org
+    class_path: cumulusci.tasks.salesforce.sourcetracking.ListChanges
+    options:
+      exclude: "Profile, PicklistValue, StandardValueSet"
+
+  retrieve_changes:
+    name: Retrieve Changes from Scratch Org
+    description: Retrieve changed components from a scratch org
+    class_path: cumulusci.tasks.salesforce.sourcetracking.RetrieveChanges
+    options:
+      exclude: "Profile, PicklistValue, StandardValueSet"
+    
+  robot:
+      options:
+        suites: robot/Chan2/tests
         options:
-            api_names:
-                - Salutation
-            entries:
-                - label: Mr.
-                  fullName: Mr.
-                - label: Ms.
-                  fullName: Ms.
-                - label: Mrs.
-                  fullName: Mrs.
-                - label: Dr.
-                  fullName: Dr.
-                - label: Prof.
-                  fullName: Prof.
-                - label: Rev.
-                  fullName: Rev.
-                - label: Rev. Msgr.
-                  fullName: Rev. Msgr.
-                - label: Most Rev.
-                  fullName: Most Rev.
-                - label: Very Rev.
-                  fullName: Very Rev.
-                - label: Rt. Rev.
-                  fullName: Rt. Rev.
-                - label: Rev. Mr.
-                  fullName: Rev. Mr.
-                - label: Rev. Dr.
-                  fullName: Rev. Dr.
-                - label: Sr.
-                  fullName: Sr.
-                - label: Br.
-                  fullName: Br.
-                - label: Friar
-                  fullName: Friar
-                - label: Hon.
-                  fullName: Hon.
-                - label: Judge
-                  fullName: Judge
-            api_names:
-                - AccountType
-            entries:
-                - label: Diocese
-                  fullName: Diocese
-                - label: Parish
-                  fullName: Parish
-                - label: Mission
-                  fullName: Mission
-                - label: Non-Catholic Christian Church
-                  fullName: Non-Catholic Christian Church
-                - label: Non-Christian Religious Congregation
-                  fullName: Non-Christian Religious Congregation
-                - label: Lay Movement
-                  fullName: Lay Movement
-                - label: Non-Denominational Ministry
-                  fullName: Non-Denominational Ministry
-                - label: Corporate
-                  fullName: Corporate
-                - label: Government
-                  fullName: Government
-                - label: Healthcare
-                  fullName: Healthcare
-                - label: Nonprofit or Charity
-                  fullName: Nonprofit or Charity
-                - label: Foundation
-                  fullName: Foundation
-                - label: Congregation
-                  fullName: Congregation
-                - label: Local Community
-                  fullName: Local Community
-                - label: Society
-                  fullName: Society
-                - label: Fraternity
-                  fullName: Fraternity
-                - label: Prelature
-                  fullName: Prelature
-                - label: Association
-                  fullName: Association
-                - label: Convent
-                  fullName: Convent
-                - label: Monastery
-                  fullName: Monastery
-                - label: Retreat Centre
-                  fullName: Retreat Centre
-                - label: Elementary School
-                  fullName: Elementary School
-                - label: High School
-                  fullName: High School
-                - label: K-12
-                  fullName: K-12
-                - label: College
-                  fullName: College
-                - label: Seminary
-                  fullName: Seminary
+          outputdir: robot/Chan2/results
 
+  robot_testdoc:
+       options:
+           path: robot/Chan2/tests
+           output: robot/Chan2/doc/Chan2_tests.html
 
-    robot:
-        options:
-            suites: robot/Chan2/tests
-            options:
-                outputdir: robot/Chan2/results
-
-    robot_testdoc:
-        options:
-            path: robot/Chan2/tests
-            output: robot/Chan2/doc/Chan2_tests.html
-
-    run_tests:
+  run_tests:
         options:
             required_org_code_coverage_percent: 75
 
  
 flows:
 
-    dependencies:
-         steps:
-             3:
-              task: add_standard_value_set_entries
+  dependencies:
+    steps:
+      3:
+        task: add_standard_value_set_entries_salutation
+      4:
+        task: add_standard_value_set_entries_account_type

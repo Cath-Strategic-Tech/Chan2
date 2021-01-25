@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>Stage of formation for the Permanent Diaconate or Priesthood</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A person&apos;s stage of formation for the Permanent Diaconate or Priesthood</inlineHelpText>
+    <label>Stage</label>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inquirer</fullName>
+                <default>false</default>
+                <label>Inquirer</label>
+            </value>
+            <value>
+                <fullName>Aspirant</fullName>
+                <default>false</default>
+                <label>Aspirant</label>
+            </value>
+            <value>
+                <fullName>Candidate</fullName>
+                <default>false</default>
+                <label>Candidate</label>
+            </value>
+            <value>
+                <fullName>Lector</fullName>
+                <default>false</default>
+                <label>Lector</label>
+            </value>
+            <value>
+                <fullName>Acolyte</fullName>
+                <default>false</default>
+                <label>Acolyte</label>
+            </value>
+            <value>
+                <fullName>Deacon</fullName>
+                <default>false</default>
+                <label>Deacon</label>
+            </value>
+            <value>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+                <label>On Leave</label>
+            </value>
+            <value>
+                <fullName>On Sabbatical</fullName>
+                <default>false</default>
+                <label>On Sabbatical</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Postulant</fullName>
+                <default>false</default>
+                <label>Postulant</label>
+            </value>
+            <value>
+                <fullName>Novice</fullName>
+                <default>false</default>
+                <label>Novice</label>
+            </value>
+            <value>
+                <fullName>Temporary Professed</fullName>
+                <default>false</default>
+                <label>Temporary Professed</label>
+            </value>
+            <value>
+                <fullName>Solemn Professed</fullName>
+                <default>false</default>
+                <label>Solemn Professed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

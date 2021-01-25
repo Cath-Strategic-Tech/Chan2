@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remaining_Years__c</fullName>
+    <externalId>false</externalId>
+    <formula>MAX(
+CASE( Retirement_Year__c ,
+&quot;2019&quot;, 2019,
+&quot;2020&quot;, 2020,
+&quot;2021&quot;, 2021,
+&quot;2022&quot;, 2022,
+&quot;2023&quot;, 2023,
+&quot;2024&quot;, 2024,
+&quot;2025&quot;, 2025,
+&quot;2026&quot;, 2026,
+&quot;2027&quot;, 2027,
+&quot;2028&quot;, 2028,
+&quot;2029&quot;, 2029,
+&quot;2030&quot;, 2030,
+&quot;2031&quot;, 2031,
+&quot;2032&quot;, 2032,
+&quot;2033&quot;, 2033,
+&quot;2034&quot;, 2034,
+&quot;2035&quot;, 2035,
+&quot;2036&quot;, 2036,
+&quot;2037&quot;, 2037,
+&quot;2038&quot;, 2038,
+&quot;2039&quot;, 2039,
+&quot;2040&quot;, 2040,
+&quot;2041&quot;, 2041,
+&quot;2042&quot;, 2042,
+&quot;2043&quot;, 2043,
+&quot;2044&quot;, 2044,
+&quot;2045&quot;, 2045,
+&quot;2046&quot;, 2046,
+&quot;2047&quot;, 2047,
+&quot;2048&quot;, 2048,
+&quot;2049&quot;, 2049,
+&quot;2050&quot;, 2050,
+0
+)
+
+ -  YEAR(TODAY())
+,
+0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Remaining Years</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
