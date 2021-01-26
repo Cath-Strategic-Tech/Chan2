@@ -157,3 +157,13 @@ flows:
         task: add_standard_value_set_entries_salutation
       4:
         task: add_standard_value_set_entries_account_type
+
+  config_dev:
+    steps:
+        3:
+          task: load_dataset
+
+  config_qa:
+    steps:
+        3:
+          task: load_dataset
