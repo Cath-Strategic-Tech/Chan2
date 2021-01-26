@@ -1,45 +1,329 @@
-Insert Accounts:
+Insert Committee__c:
+  sf_object: Committee__c
+  fields:
+  - Active__c
+  - Count_of_Active_Members__c
+  - Date_Dissolved__c
+  - Date_Established__c
+  - Name
+Insert npo02__Household__c:
+  sf_object: npo02__Household__c
+  fields:
+  - Name
+  - npo02__Addressee__c
+  - npo02__Always_Anonymous__c
+  - npo02__AverageAmount__c
+  - npo02__Best_Gift_Year_Total__c
+  - npo02__Best_Gift_Year__c
+  - npo02__FirstCloseDate__c
+  - npo02__Formal_Greeting__c
+  - npo02__HouseholdEmail__c
+  - npo02__HouseholdPhone__c
+  - npo02__Household_ID__c
+  - npo02__Informal_Greeting__c
+  - npo02__LargestAmount__c
+  - npo02__LastCloseDate__c
+  - npo02__LastMembershipAmount__c
+  - npo02__LastMembershipDate__c
+  - npo02__LastMembershipLevel__c
+  - npo02__LastMembershipOrigin__c
+  - npo02__LastOppAmount__c
+  - npo02__MailingCity__c
+  - npo02__MailingCountry__c
+  - npo02__MailingPostalCode__c
+  - npo02__MailingState__c
+  - npo02__MailingStreet__c
+  - npo02__MembershipEndDate__c
+  - npo02__MembershipJoinDate__c
+  - npo02__NumberOfClosedOpps__c
+  - npo02__NumberOfMembershipOpps__c
+  - npo02__OppAmount2YearsAgo__c
+  - npo02__OppAmountLastNDays__c
+  - npo02__OppAmountLastYear__c
+  - npo02__OppAmountThisYear__c
+  - npo02__OppsClosed2YearsAgo__c
+  - npo02__OppsClosedLastNDays__c
+  - npo02__OppsClosedLastYear__c
+  - npo02__OppsClosedThisYear__c
+  - npo02__SYSTEM_CUSTOM_NAMING__c
+  - npo02__SmallestAmount__c
+  - npo02__TotalMembershipOppAmount__c
+  - npo02__TotalOppAmount__c
+  - npsp__Number_of_Household_Members__c
+Insert npsp__Batch__c:
+  sf_object: npsp__Batch__c
+  fields:
+  - Name
+  - npsp__Batch_Status__c
+  - npsp__Description__c
+  - npsp__Number_of_Items__c
+  - npsp__Object_Name__c
+Insert Account:
   sf_object: Account
-  table: Account
   fields:
-    Name: Name
-    Description: Description
-    BillingStreet: BillingStreet
-    BillingCity: BillingCity
-    BillingState: BillingState
-    BillingPostalCode: BillingPostalCode
-    BillingCountry: BillingCountry
-    ShippingStreet: ShippingStreet
-    ShippingCity: ShippingCity
-    ShippingState: ShippingState
-    ShippingPostalCode: ShippingPostalCode
-    ShippingCountry: ShippingCountry
-    Phone: Phone
-    Fax: Fax
-    Website: Website
-    NumberOfEmployees: NumberOfEmployees
-    AccountNumber: AccountNumber
-    Site: Site
-    Type: Type
-Insert Contacts:
+  - Abbreviation__c
+  - Active__c
+  - Active_in_diocese__c
+  - Date_Dissolved__c
+  - Date_Established__c
+  - Date_of_Dedication__c
+  - Email__c
+  - Entrustment_End_Date__c
+  - Entrustment_Is_Formal__c
+  - Entrustment_Notes__c
+  - Entrustment_Start_Date__c
+  - Name
+  - RecordTypeId
+  - Religious_Suffix__c
+  - Type_Members__c
+  - Type_of_Ministry__c
+  - npe01__SYSTEMIsIndividual__c
+  - npe01__SYSTEM_AccountType__c
+  - npo02__AverageAmount__c
+  - npo02__Best_Gift_Year_Total__c
+  - npo02__Best_Gift_Year__c
+  - npo02__FirstCloseDate__c
+  - npo02__Formal_Greeting__c
+  - npo02__HouseholdPhone__c
+  - npo02__Informal_Greeting__c
+  - npo02__LargestAmount__c
+  - npo02__LastCloseDate__c
+  - npo02__LastMembershipAmount__c
+  - npo02__LastMembershipDate__c
+  - npo02__LastMembershipLevel__c
+  - npo02__LastMembershipOrigin__c
+  - npo02__LastOppAmount__c
+  - npo02__MembershipEndDate__c
+  - npo02__MembershipJoinDate__c
+  - npo02__NumberOfClosedOpps__c
+  - npo02__NumberOfMembershipOpps__c
+  - npo02__OppAmount2YearsAgo__c
+  - npo02__OppAmountLastNDays__c
+  - npo02__OppAmountLastYear__c
+  - npo02__OppAmountThisYear__c
+  - npo02__OppsClosed2YearsAgo__c
+  - npo02__OppsClosedLastNDays__c
+  - npo02__OppsClosedLastYear__c
+  - npo02__OppsClosedThisYear__c
+  - npo02__SYSTEM_CUSTOM_NAMING__c
+  - npo02__SmallestAmount__c
+  - npo02__TotalMembershipOppAmount__c
+  - npo02__TotalOppAmount__c
+  - npsp__Funding_Focus__c
+  - npsp__Grantmaker__c
+  - npsp__Matching_Gift_Administrator_Name__c
+  - npsp__Matching_Gift_Amount_Max__c
+  - npsp__Matching_Gift_Amount_Min__c
+  - npsp__Matching_Gift_Annual_Employee_Max__c
+  - npsp__Matching_Gift_Comments__c
+  - npsp__Matching_Gift_Company__c
+  - npsp__Matching_Gift_Email__c
+  - npsp__Matching_Gift_Info_Updated__c
+  - npsp__Matching_Gift_Percent__c
+  - npsp__Matching_Gift_Phone__c
+  - npsp__Matching_Gift_Request_Deadline__c
+  - npsp__Number_of_Household_Members__c
+  lookups:
+    Congregation_Superior__c:
+      table: Contact
+      after: Insert Contact
+    Diocese__c:
+      table: Account
+      after: Insert Account
+    Entrustment__c:
+      table: Account
+      after: Insert Account
+    ParentId:
+      table: Account
+      after: Insert Account
+    Related_Elementary_School__c:
+      table: Account
+      after: Insert Account
+    npe01__One2OneContact__c:
+      table: Contact
+      after: Insert Contact
+    npsp__Batch__c:
+      table: npsp__Batch__c
+Insert npsp__Address__c:
+  sf_object: npsp__Address__c
+  fields:
+  - npsp__API_Response__c
+  - npsp__Address_Type__c
+  - npsp__Administrative_Area__c
+  - npsp__Ambiguous__c
+  - npsp__Congressional_District__c
+  - npsp__County_Name__c
+  - npsp__Default_Address__c
+  - npsp__Exclude_from_Updates__c
+  - npsp__Latest_End_Date__c
+  - npsp__Latest_Start_Date__c
+  - npsp__MailingCity__c
+  - npsp__MailingCountry__c
+  - npsp__MailingPostalCode__c
+  - npsp__MailingState__c
+  - npsp__MailingStreet2__c
+  - npsp__MailingStreet__c
+  - npsp__NCOA_Evaluation_Date__c
+  - npsp__NCOA_Result_Code__c
+  - npsp__Pre_Verification_Address__c
+  - npsp__Seasonal_End_Day__c
+  - npsp__Seasonal_End_Month__c
+  - npsp__Seasonal_Start_Day__c
+  - npsp__Seasonal_Start_Month__c
+  - npsp__State_Lower_District__c
+  - npsp__State_Upper_District__c
+  - npsp__Verification_Status__c
+  - npsp__Verified_Date__c
+  - npsp__Verified__c
+  lookups:
+    npsp__Household_Account__c:
+      table: Account
+Insert Contact:
   sf_object: Contact
-  table: Contact
   fields:
-    Salutation: Salutation
-    FirstName: FirstName
-    LastName: LastName
-    Email: Email
-    Phone: Phone
-    MobilePhone: MobilePhone
-    OtherPhone: OtherPhone
-    HomePhone: HomePhone
-    Title: Title
-    Birthdate: Birthdate
-    MailingStreet: MailingStreet
-    MailingCity: MailingCity
-    MailingState: MailingState
-    MailingPostalCode: MailingPostalCode
-    MailingCountry: MailingCountry
+  - Birth_City_Province__c
+  - Date_of_Baptism__c
+  - Date_of_Death__c
+  - Date_of_Incardination__c
+  - Date_of_Presbyteral_Ordination__c
+  - DoNotCall
+  - Employer__c
+  - FirstName
+  - Gender__c
+  - HasOptedOutOfEmail
+  - HasOptedOutOfFax
+  - LastName
+  - Legal_Name__c
+  - Maiden_Name__c
+  - Marital_Status__c
+  - Marriage_License__c
+  - Marriage_Officiant_License__c
+  - Ministerial_Status__c
+  - Occupation__c
+  - Photo__c
+  - RecordTypeId
+  - Religious_Final_Vows__c
+  - Religious_First_Vows__c
+  - Religious_Suffix__c
+  - Retirement_Year__c
+  - Stage__c
+  - Type__c
+  - Will_on_file__c
+  - npe01__AlternateEmail__c
+  - npe01__HomeEmail__c
+  - npe01__PreferredPhone__c
+  - npe01__Preferred_Email__c
+  - npe01__Primary_Address_Type__c
+  - npe01__Private__c
+  - npe01__Secondary_Address_Type__c
+  - npe01__SystemAccountProcessor__c
+  - npe01__WorkEmail__c
+  - npe01__WorkPhone__c
+  - npo02__AverageAmount__c
+  - npo02__Best_Gift_Year_Total__c
+  - npo02__Best_Gift_Year__c
+  - npo02__FirstCloseDate__c
+  - npo02__Household_Naming_Order__c
+  - npo02__LargestAmount__c
+  - npo02__LastCloseDate__c
+  - npo02__LastMembershipAmount__c
+  - npo02__LastMembershipDate__c
+  - npo02__LastMembershipLevel__c
+  - npo02__LastMembershipOrigin__c
+  - npo02__LastOppAmount__c
+  - npo02__MembershipEndDate__c
+  - npo02__MembershipJoinDate__c
+  - npo02__Naming_Exclusions__c
+  - npo02__NumberOfClosedOpps__c
+  - npo02__NumberOfMembershipOpps__c
+  - npo02__OppAmount2YearsAgo__c
+  - npo02__OppAmountLastNDays__c
+  - npo02__OppAmountLastYear__c
+  - npo02__OppAmountThisYear__c
+  - npo02__OppsClosed2YearsAgo__c
+  - npo02__OppsClosedLastNDays__c
+  - npo02__OppsClosedLastYear__c
+  - npo02__OppsClosedThisYear__c
+  - npo02__SmallestAmount__c
+  - npo02__Soft_Credit_Last_Year__c
+  - npo02__Soft_Credit_This_Year__c
+  - npo02__Soft_Credit_Total__c
+  - npo02__Soft_Credit_Two_Years_Ago__c
+  - npo02__SystemHouseholdProcessor__c
+  - npo02__TotalMembershipOppAmount__c
+  - npo02__TotalOppAmount__c
+  - npsp__Deceased__c
+  - npsp__Do_Not_Contact__c
+  - npsp__Exclude_from_Household_Formal_Greeting__c
+  - npsp__Exclude_from_Household_Informal_Greeting__c
+  - npsp__Exclude_from_Household_Name__c
+  - npsp__First_Soft_Credit_Amount__c
+  - npsp__First_Soft_Credit_Date__c
+  - npsp__Largest_Soft_Credit_Amount__c
+  - npsp__Largest_Soft_Credit_Date__c
+  - npsp__Last_Soft_Credit_Amount__c
+  - npsp__Last_Soft_Credit_Date__c
+  - npsp__Number_of_Soft_Credits_Last_N_Days__c
+  - npsp__Number_of_Soft_Credits_Last_Year__c
+  - npsp__Number_of_Soft_Credits_This_Year__c
+  - npsp__Number_of_Soft_Credits_Two_Years_Ago__c
+  - npsp__Number_of_Soft_Credits__c
+  - npsp__Soft_Credit_Last_N_Days__c
+  - npsp__is_Address_Override__c
   lookups:
     AccountId:
+      table: Account
+    Home_Parish__c:
+      table: Account
+    Primary_Assignment__c:
+      table: Account
+    Religious_Order__c:
+      table: Account
+    ReportsToId:
+      table: Contact
+      after: Insert Contact
+    npo02__Household__c:
+      table: npo02__Household__c
+    npsp__Batch__c:
+      table: npsp__Batch__c
+    npsp__Current_Address__c:
+      table: npsp__Address__c
+    npsp__Primary_Affiliation__c:
+      table: Account
+Insert Assignment__c:
+  sf_object: Assignment__c
+  fields:
+  - Active__c
+  - Comments__c
+  - End_Date__c
+  - Place_of_Residence__c
+  - Position__c
+  - Primary_Assignment__c
+  - Reappointment__c
+  - RecordTypeId
+  - Start_Date__c
+  - Type__c
+  lookups:
+    Account__c:
+      table: Account
+    Committee__c:
+      table: Committee__c
+    Contact__c:
+      table: Contact
+Insert npe5__Affiliation__c:
+  sf_object: npe5__Affiliation__c
+  fields:
+  - RecordTypeId
+  - Type__c
+  - npe5__Description__c
+  - npe5__EndDate__c
+  - npe5__Primary__c
+  - npe5__Role__c
+  - npe5__StartDate__c
+  - npe5__Status__c
+  - npsp__Related_Opportunity_Contact_Role__c
+  lookups:
+    npe5__Contact__c:
+      table: Contact
+    npe5__Organization__c:
       table: Account

@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Position__c</fullName>
+    <externalId>false</externalId>
+    <label>Position</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abbess</fullName>
+                <default>false</default>
+                <label>Abbess</label>
+            </value>
+            <value>
+                <fullName>Abbot</fullName>
+                <default>false</default>
+                <label>Abbot</label>
+            </value>
+            <value>
+                <fullName>Accounts Clerk</fullName>
+                <default>false</default>
+                <label>Accounts Clerk</label>
+            </value>
+            <value>
+                <fullName>Active Ministry</fullName>
+                <default>false</default>
+                <label>Active Ministry</label>
+            </value>
+            <value>
+                <fullName>Administrative Assistant</fullName>
+                <default>false</default>
+                <label>Administrative Assistant</label>
+            </value>
+            <value>
+                <fullName>Administrative Secretary to the Archbishop</fullName>
+                <default>false</default>
+                <label>Administrative Secretary to the Archbishop</label>
+            </value>
+            <value>
+                <fullName>Administrator</fullName>
+                <default>false</default>
+                <label>Administrator</label>
+            </value>
+            <value>
+                <fullName>Advocate</fullName>
+                <default>false</default>
+                <label>Advocate</label>
+            </value>
+            <value>
+                <fullName>Archbishop</fullName>
+                <default>false</default>
+                <label>Archbishop</label>
+            </value>
+            <value>
+                <fullName>Archbishop Emeritus</fullName>
+                <default>false</default>
+                <label>Archbishop Emeritus</label>
+            </value>
+            <value>
+                <fullName>Archbishop&apos;s Delegate</fullName>
+                <default>false</default>
+                <label>Archbishop&apos;s Delegate</label>
+            </value>
+            <value>
+                <fullName>Archbishop&apos;s Delegate for Administration</fullName>
+                <default>false</default>
+                <label>Archbishop&apos;s Delegate for Administration</label>
+            </value>
+            <value>
+                <fullName>Archbishop&apos;s Delegate for Serious Misconduct</fullName>
+                <default>false</default>
+                <label>Archbishop&apos;s Delegate for Serious Misconduct</label>
+            </value>
+            <value>
+                <fullName>Archbishop&apos;s Representative</fullName>
+                <default>false</default>
+                <label>Archbishop&apos;s Representative</label>
+            </value>
+            <value>
+                <fullName>Archbishop&apos;s Sub Delegate for Serious Misconduct</fullName>
+                <default>false</default>
+                <label>Archbishop&apos;s Sub Delegate for Serious Misconduct</label>
+            </value>
+            <value>
+                <fullName>Archivist</fullName>
+                <default>false</default>
+                <label>Archivist</label>
+            </value>
+            <value>
+                <fullName>Assistant</fullName>
+                <default>false</default>
+                <label>Assistant</label>
+            </value>
+            <value>
+                <fullName>Assistant Director</fullName>
+                <default>false</default>
+                <label>Assistant Director</label>
+            </value>
+            <value>
+                <fullName>Assistant Editor</fullName>
+                <default>false</default>
+                <label>Assistant Editor</label>
+            </value>
+            <value>
+                <fullName>Assistant Notary</fullName>
+                <default>false</default>
+                <label>Assistant Notary</label>
+            </value>
+            <value>
+                <fullName>Assistant Pastor</fullName>
+                <default>false</default>
+                <label>Assistant Pastor</label>
+            </value>
+            <value>
+                <fullName>Associate Executive Director</fullName>
+                <default>false</default>
+                <label>Associate Executive Director</label>
+            </value>
+            <value>
+                <fullName>Associate Judge</fullName>
+                <default>false</default>
+                <label>Associate Judge</label>
+            </value>
+            <value>
+                <fullName>Associate Pastor</fullName>
+                <default>false</default>
+                <label>Associate Pastor</label>
+            </value>
+            <value>
+                <fullName>Associate State Chaplain</fullName>
+                <default>false</default>
+                <label>Associate State Chaplain</label>
+            </value>
+            <value>
+                <fullName>Associate Superintendent</fullName>
+                <default>false</default>
+                <label>Associate Superintendent</label>
+            </value>
+            <value>
+                <fullName>Auditor</fullName>
+                <default>false</default>
+                <label>Auditor</label>
+            </value>
+            <value>
+                <fullName>Bishop</fullName>
+                <default>false</default>
+                <label>Bishop</label>
+            </value>
+            <value>
+                <fullName>Bishop-Elect</fullName>
+                <default>false</default>
+                <label>Bishop-Elect</label>
+            </value>
+            <value>
+                <fullName>Bookkeeper</fullName>
+                <default>false</default>
+                <label>Bookkeeper</label>
+            </value>
+            <value>
+                <fullName>Buildings &amp; Properties Planner</fullName>
+                <default>false</default>
+                <label>Buildings &amp; Properties Planner</label>
+            </value>
+            <value>
+                <fullName>c/o</fullName>
+                <default>false</default>
+                <label>c/o</label>
+            </value>
+            <value>
+                <fullName>Campus Minister</fullName>
+                <default>false</default>
+                <label>Campus Minister</label>
+            </value>
+            <value>
+                <fullName>Celebrant for Sunday Mass</fullName>
+                <default>false</default>
+                <label>Celebrant for Sunday Mass</label>
+            </value>
+            <value>
+                <fullName>Chair</fullName>
+                <default>false</default>
+                <label>Chair</label>
+            </value>
+            <value>
+                <fullName>Chancellor</fullName>
+                <default>false</default>
+                <label>Chancellor</label>
+            </value>
+            <value>
+                <fullName>Chaplain</fullName>
+                <default>false</default>
+                <label>Chaplain</label>
+            </value>
+            <value>
+                <fullName>CISVA Regional Education Committee</fullName>
+                <default>false</default>
+                <label>CISVA Regional Education Committee</label>
+            </value>
+            <value>
+                <fullName>Co-Chair</fullName>
+                <default>false</default>
+                <label>Co-Chair</label>
+            </value>
+            <value>
+                <fullName>Co-Chaplain</fullName>
+                <default>false</default>
+                <label>Co-Chaplain</label>
+            </value>
+            <value>
+                <fullName>Co-Leader</fullName>
+                <default>false</default>
+                <label>Co-Leader</label>
+            </value>
+            <value>
+                <fullName>Coadjutor Archbishop</fullName>
+                <default>false</default>
+                <label>Coadjutor Archbishop</label>
+            </value>
+            <value>
+                <fullName>Communications</fullName>
+                <default>false</default>
+                <label>Communications</label>
+            </value>
+            <value>
+                <fullName>Confessor</fullName>
+                <default>false</default>
+                <label>Confessor</label>
+            </value>
+            <value>
+                <fullName>Consultant for Parish Youth &amp; Young Adult Ministry</fullName>
+                <default>false</default>
+                <label>Consultant for Parish Youth &amp; Young Adult Ministry</label>
+            </value>
+            <value>
+                <fullName>Consultant for Youth Conferences &amp; Events</fullName>
+                <default>false</default>
+                <label>Consultant for Youth Conferences &amp; Events</label>
+            </value>
+            <value>
+                <fullName>Controller</fullName>
+                <default>false</default>
+                <label>Controller</label>
+            </value>
+            <value>
+                <fullName>Coordinator</fullName>
+                <default>false</default>
+                <label>Coordinator</label>
+            </value>
+            <value>
+                <fullName>Counsellor</fullName>
+                <default>false</default>
+                <label>Counsellor</label>
+            </value>
+            <value>
+                <fullName>Deacon</fullName>
+                <default>false</default>
+                <label>Deacon</label>
+            </value>
+            <value>
+                <fullName>Dean</fullName>
+                <default>false</default>
+                <label>Dean</label>
+            </value>
+            <value>
+                <fullName>Defender of the Bond</fullName>
+                <default>false</default>
+                <label>Defender of the Bond</label>
+            </value>
+            <value>
+                <fullName>Deputy Delegate</fullName>
+                <default>false</default>
+                <label>Deputy Delegate</label>
+            </value>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Director of Liturgy</fullName>
+                <default>false</default>
+                <label>Director of Liturgy</label>
+            </value>
+            <value>
+                <fullName>Director of Operations</fullName>
+                <default>false</default>
+                <label>Director of Operations</label>
+            </value>
+            <value>
+                <fullName>Director of Pastoral Care</fullName>
+                <default>false</default>
+                <label>Director of Pastoral Care</label>
+            </value>
+            <value>
+                <fullName>Director of Student Services</fullName>
+                <default>false</default>
+                <label>Director of Student Services</label>
+            </value>
+            <value>
+                <fullName>District Superior</fullName>
+                <default>false</default>
+                <label>District Superior</label>
+            </value>
+            <value>
+                <fullName>Ecumenical Representative</fullName>
+                <default>false</default>
+                <label>Ecumenical Representative</label>
+            </value>
+            <value>
+                <fullName>Editor</fullName>
+                <default>false</default>
+                <label>Editor</label>
+            </value>
+            <value>
+                <fullName>Education Consultant</fullName>
+                <default>false</default>
+                <label>Education Consultant</label>
+            </value>
+            <value>
+                <fullName>Episcopal Vicar for Evangelization and Education</fullName>
+                <default>false</default>
+                <label>Episcopal Vicar for Evangelization and Education</label>
+            </value>
+            <value>
+                <fullName>Episcopal Vicar for Marriage</fullName>
+                <default>false</default>
+                <label>Episcopal Vicar for Marriage</label>
+            </value>
+            <value>
+                <fullName>Episcopal Vicar for Pastoral Services</fullName>
+                <default>false</default>
+                <label>Episcopal Vicar for Pastoral Services</label>
+            </value>
+            <value>
+                <fullName>Executive Assistant to the President/Principal</fullName>
+                <default>false</default>
+                <label>Executive Assistant to the President/Principal</label>
+            </value>
+            <value>
+                <fullName>Executive Director</fullName>
+                <default>false</default>
+                <label>Executive Director</label>
+            </value>
+            <value>
+                <fullName>Financial Advisor</fullName>
+                <default>false</default>
+                <label>Financial Advisor</label>
+            </value>
+            <value>
+                <fullName>Fourth Councillor</fullName>
+                <default>false</default>
+                <label>Fourth Councillor</label>
+            </value>
+            <value>
+                <fullName>General Councilor</fullName>
+                <default>false</default>
+                <label>General Councilor</label>
+            </value>
+            <value>
+                <fullName>General Information</fullName>
+                <default>false</default>
+                <label>General Information</label>
+            </value>
+            <value>
+                <fullName>General Secretary</fullName>
+                <default>false</default>
+                <label>General Secretary</label>
+            </value>
+            <value>
+                <fullName>In Residence</fullName>
+                <default>false</default>
+                <label>In Residence</label>
+            </value>
+            <value>
+                <fullName>Interim Chancellor</fullName>
+                <default>false</default>
+                <label>Interim Chancellor</label>
+            </value>
+            <value>
+                <fullName>Interim-basis Judge</fullName>
+                <default>false</default>
+                <label>Interim-basis Judge</label>
+            </value>
+            <value>
+                <fullName>Internal Auditor</fullName>
+                <default>false</default>
+                <label>Internal Auditor</label>
+            </value>
+            <value>
+                <fullName>Internship</fullName>
+                <default>false</default>
+                <label>Internship</label>
+            </value>
+            <value>
+                <fullName>Judge</fullName>
+                <default>false</default>
+                <label>Judge</label>
+            </value>
+            <value>
+                <fullName>Leave</fullName>
+                <default>false</default>
+                <label>Leave</label>
+            </value>
+            <value>
+                <fullName>Local Superior</fullName>
+                <default>false</default>
+                <label>Local Superior</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <label>Manager</label>
+            </value>
+            <value>
+                <fullName>Master of Ceremonies</fullName>
+                <default>false</default>
+                <label>Master of Ceremonies</label>
+            </value>
+            <value>
+                <fullName>Member</fullName>
+                <default>false</default>
+                <label>Member</label>
+            </value>
+            <value>
+                <fullName>Member (non-voting)</fullName>
+                <default>false</default>
+                <label>Member (non-voting)</label>
+            </value>
+            <value>
+                <fullName>Member at Large</fullName>
+                <default>false</default>
+                <label>Member at Large</label>
+            </value>
+            <value>
+                <fullName>Minister General</fullName>
+                <default>false</default>
+                <label>Minister General</label>
+            </value>
+            <value>
+                <fullName>Ministry</fullName>
+                <default>false</default>
+                <label>Ministry</label>
+            </value>
+            <value>
+                <fullName>Ministry of Acolyte</fullName>
+                <default>false</default>
+                <label>Ministry of Acolyte</label>
+            </value>
+            <value>
+                <fullName>Ministry of Lector</fullName>
+                <default>false</default>
+                <label>Ministry of Lector</label>
+            </value>
+            <value>
+                <fullName>Missionary Priest</fullName>
+                <default>false</default>
+                <label>Missionary Priest</label>
+            </value>
+            <value>
+                <fullName>Moderator of the Curia</fullName>
+                <default>false</default>
+                <label>Moderator of the Curia</label>
+            </value>
+            <value>
+                <fullName>Monk</fullName>
+                <default>false</default>
+                <label>Monk</label>
+            </value>
+            <value>
+                <fullName>Mother Superior</fullName>
+                <default>false</default>
+                <label>Mother Superior</label>
+            </value>
+            <value>
+                <fullName>Nihil Obstat</fullName>
+                <default>false</default>
+                <label>Nihil Obstat</label>
+            </value>
+            <value>
+                <fullName>Office Manager</fullName>
+                <default>false</default>
+                <label>Office Manager</label>
+            </value>
+            <value>
+                <fullName>Past President</fullName>
+                <default>false</default>
+                <label>Past President</label>
+            </value>
+            <value>
+                <fullName>Pastor</fullName>
+                <default>false</default>
+                <label>Pastor</label>
+            </value>
+            <value>
+                <fullName>Pastoral Care</fullName>
+                <default>false</default>
+                <label>Pastoral Care</label>
+            </value>
+            <value>
+                <fullName>Pastoral Leader</fullName>
+                <default>false</default>
+                <label>Pastoral Leader</label>
+            </value>
+            <value>
+                <fullName>Pastoral Worker for the Deaf</fullName>
+                <default>false</default>
+                <label>Pastoral Worker for the Deaf</label>
+            </value>
+            <value>
+                <fullName>Permanent Deacon</fullName>
+                <default>false</default>
+                <label>Permanent Deacon</label>
+            </value>
+            <value>
+                <fullName>Presbyteral Council Representative</fullName>
+                <default>false</default>
+                <label>Presbyteral Council Representative</label>
+            </value>
+            <value>
+                <fullName>President</fullName>
+                <default>false</default>
+                <label>President</label>
+            </value>
+            <value>
+                <fullName>President &amp; CEO</fullName>
+                <default>false</default>
+                <label>President &amp; CEO</label>
+            </value>
+            <value>
+                <fullName>Principal</fullName>
+                <default>false</default>
+                <label>Principal</label>
+            </value>
+            <value>
+                <fullName>Prior</fullName>
+                <default>false</default>
+                <label>Prior</label>
+            </value>
+            <value>
+                <fullName>Prior Provincial</fullName>
+                <default>false</default>
+                <label>Prior Provincial</label>
+            </value>
+            <value>
+                <fullName>Prioress</fullName>
+                <default>false</default>
+                <label>Prioress</label>
+            </value>
+            <value>
+                <fullName>Private Residence</fullName>
+                <default>false</default>
+                <label>Private Residence</label>
+            </value>
+            <value>
+                <fullName>Promoter of Justice</fullName>
+                <default>false</default>
+                <label>Promoter of Justice</label>
+            </value>
+            <value>
+                <fullName>Provincial</fullName>
+                <default>false</default>
+                <label>Provincial</label>
+            </value>
+            <value>
+                <fullName>Provincial Bursar</fullName>
+                <default>false</default>
+                <label>Provincial Bursar</label>
+            </value>
+            <value>
+                <fullName>Provincial Councilor</fullName>
+                <default>false</default>
+                <label>Provincial Councilor</label>
+            </value>
+            <value>
+                <fullName>Provincial Leader</fullName>
+                <default>false</default>
+                <label>Provincial Leader</label>
+            </value>
+            <value>
+                <fullName>Provincial Minister</fullName>
+                <default>false</default>
+                <label>Provincial Minister</label>
+            </value>
+            <value>
+                <fullName>Provincial Superior</fullName>
+                <default>false</default>
+                <label>Provincial Superior</label>
+            </value>
+            <value>
+                <fullName>Receptionist</fullName>
+                <default>false</default>
+                <label>Receptionist</label>
+            </value>
+            <value>
+                <fullName>Recording Secretary</fullName>
+                <default>false</default>
+                <label>Recording Secretary</label>
+            </value>
+            <value>
+                <fullName>Rector</fullName>
+                <default>false</default>
+                <label>Rector</label>
+            </value>
+            <value>
+                <fullName>Regional Chaplain</fullName>
+                <default>false</default>
+                <label>Regional Chaplain</label>
+            </value>
+            <value>
+                <fullName>Regional Director</fullName>
+                <default>false</default>
+                <label>Regional Director</label>
+            </value>
+            <value>
+                <fullName>Regional Prior</fullName>
+                <default>false</default>
+                <label>Regional Prior</label>
+            </value>
+            <value>
+                <fullName>Regional Secretary</fullName>
+                <default>false</default>
+                <label>Regional Secretary</label>
+            </value>
+            <value>
+                <fullName>Regional Superior</fullName>
+                <default>false</default>
+                <label>Regional Superior</label>
+            </value>
+            <value>
+                <fullName>Regional Vicar</fullName>
+                <default>false</default>
+                <label>Regional Vicar</label>
+            </value>
+            <value>
+                <fullName>Religious Education</fullName>
+                <default>false</default>
+                <label>Religious Education</label>
+            </value>
+            <value>
+                <fullName>Representative</fullName>
+                <default>false</default>
+                <label>Representative</label>
+            </value>
+            <value>
+                <fullName>Retired</fullName>
+                <default>false</default>
+                <label>Retired</label>
+            </value>
+            <value>
+                <fullName>Retreat Ministry</fullName>
+                <default>false</default>
+                <label>Retreat Ministry</label>
+            </value>
+            <value>
+                <fullName>School Psychologist</fullName>
+                <default>false</default>
+                <label>School Psychologist</label>
+            </value>
+            <value>
+                <fullName>Second Assistant</fullName>
+                <default>false</default>
+                <label>Second Assistant</label>
+            </value>
+            <value>
+                <fullName>Second Councillor</fullName>
+                <default>false</default>
+                <label>Second Councillor</label>
+            </value>
+            <value>
+                <fullName>Secretary</fullName>
+                <default>false</default>
+                <label>Secretary</label>
+            </value>
+            <value>
+                <fullName>Secretary - Parish</fullName>
+                <default>false</default>
+                <label>Secretary - Parish</label>
+            </value>
+            <value>
+                <fullName>Secretary/Treasurer</fullName>
+                <default>false</default>
+                <label>Secretary/Treasurer</label>
+            </value>
+            <value>
+                <fullName>Seminarian</fullName>
+                <default>false</default>
+                <label>Seminarian</label>
+            </value>
+            <value>
+                <fullName>Senior Accountant</fullName>
+                <default>false</default>
+                <label>Senior Accountant</label>
+            </value>
+            <value>
+                <fullName>Spiritual Director</fullName>
+                <default>false</default>
+                <label>Spiritual Director</label>
+            </value>
+            <value>
+                <fullName>State Deputy-elect</fullName>
+                <default>false</default>
+                <label>State Deputy-elect</label>
+            </value>
+            <value>
+                <fullName>State Father Prior</fullName>
+                <default>false</default>
+                <label>State Father Prior</label>
+            </value>
+            <value>
+                <fullName>Student Representative</fullName>
+                <default>false</default>
+                <label>Student Representative</label>
+            </value>
+            <value>
+                <fullName>Study Leave</fullName>
+                <default>false</default>
+                <label>Study Leave</label>
+            </value>
+            <value>
+                <fullName>Sunday Masses Only</fullName>
+                <default>false</default>
+                <label>Sunday Masses Only</label>
+            </value>
+            <value>
+                <fullName>Superintendent</fullName>
+                <default>false</default>
+                <label>Superintendent</label>
+            </value>
+            <value>
+                <fullName>Superior</fullName>
+                <default>false</default>
+                <label>Superior</label>
+            </value>
+            <value>
+                <fullName>Superior General</fullName>
+                <default>false</default>
+                <label>Superior General</label>
+            </value>
+            <value>
+                <fullName>Support Staff</fullName>
+                <default>false</default>
+                <label>Support Staff</label>
+            </value>
+            <value>
+                <fullName>System Admin</fullName>
+                <default>false</default>
+                <label>System Admin</label>
+            </value>
+            <value>
+                <fullName>Teacher</fullName>
+                <default>false</default>
+                <label>Teacher</label>
+            </value>
+            <value>
+                <fullName>Temporary Administrator</fullName>
+                <default>false</default>
+                <label>Temporary Administrator</label>
+            </value>
+            <value>
+                <fullName>Third Councillor</fullName>
+                <default>false</default>
+                <label>Third Councillor</label>
+            </value>
+            <value>
+                <fullName>Treasurer</fullName>
+                <default>false</default>
+                <label>Treasurer</label>
+            </value>
+            <value>
+                <fullName>Vicar</fullName>
+                <default>false</default>
+                <label>Vicar</label>
+            </value>
+            <value>
+                <fullName>Vicar for Catholic Health Care</fullName>
+                <default>false</default>
+                <label>Vicar for Catholic Health Care</label>
+            </value>
+            <value>
+                <fullName>Vicar for Education</fullName>
+                <default>false</default>
+                <label>Vicar for Education</label>
+            </value>
+            <value>
+                <fullName>Vicar for Priestly Life</fullName>
+                <default>false</default>
+                <label>Vicar for Priestly Life</label>
+            </value>
+            <value>
+                <fullName>Vicar General</fullName>
+                <default>false</default>
+                <label>Vicar General</label>
+            </value>
+            <value>
+                <fullName>Vice President</fullName>
+                <default>false</default>
+                <label>Vice President</label>
+            </value>
+            <value>
+                <fullName>Vice-Chair</fullName>
+                <default>false</default>
+                <label>Vice-Chair</label>
+            </value>
+            <value>
+                <fullName>Vice-Chancellor</fullName>
+                <default>false</default>
+                <label>Vice-Chancellor</label>
+            </value>
+            <value>
+                <fullName>Vice-Officialis</fullName>
+                <default>false</default>
+                <label>Vice-Officialis</label>
+            </value>
+            <value>
+                <fullName>Vice-Rector</fullName>
+                <default>false</default>
+                <label>Vice-Rector</label>
+            </value>
+            <value>
+                <fullName>Volunteer</fullName>
+                <default>false</default>
+                <label>Volunteer</label>
+            </value>
+            <value>
+                <fullName>Web &amp; Database Administrator</fullName>
+                <default>false</default>
+                <label>Web &amp; Database Administrator</label>
+            </value>
+            <value>
+                <fullName>Western Region Vice-President</fullName>
+                <default>false</default>
+                <label>Western Region Vice-President</label>
+            </value>
+            <value>
+                <fullName>Youth &amp; Young Adult Ministries Coordinator</fullName>
+                <default>false</default>
+                <label>Youth &amp; Young Adult Ministries Coordinator</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
