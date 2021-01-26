@@ -148,6 +148,32 @@ tasks:
         options:
             required_org_code_coverage_percent: 75
 
+  update_admin_profile:
+        # description: Retrieves, edits, and redeploys the System Administrator profile with full FLS perms for all objects/fields. Also sets record type visibilities.
+        options:
+            record_types:
+                - record_type: "Contact.Lay_Person"
+                  default: true
+                - record_type: "Contact.Deacon"
+                - record_type: "Contact.Priest"
+                - record_type: "Contact.Consecrated"
+                - record_type: "Account.Church"
+                - record_type: "Account.Organization"
+                  default: true
+                - record_type: "Account.Religious"
+                - record_type: "Account.School"
+                - record_type: "Account.Household_Account"
+                - record_type: "Assignment__c.Account"
+                  default: true
+                - record_type: "Assignment__c.Committee"
+                - record_type: "Assignment__c.On_Leave"
+                - record_type: "npe5__Affiliation__c.Employment"
+                - record_type: "npe5__Affiliation__c.Ministry_Leadership"
+                - record_type: "npe5__Affiliation__c.Parishioner"
+                - record_type: "npe5__Affiliation__c.Volunteer"
+            api_name:
+                - Admin
+
  
 flows:
 
