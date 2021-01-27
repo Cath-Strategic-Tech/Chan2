@@ -6,6 +6,5 @@
     <inlineHelpText>Is this ministry group currently active? (Holding semi-regular meetings, still have identified leaders, etc.)</inlineHelpText>
     <label>Active?</label>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

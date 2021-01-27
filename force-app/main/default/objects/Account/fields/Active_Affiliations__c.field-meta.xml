@@ -12,6 +12,5 @@
     </summaryFilterItems>
     <summaryForeignKey>npe5__Affiliation__c.npe5__Organization__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>
-    <trackHistory>false</trackHistory>
     <type>Summary</type>
 </CustomField>

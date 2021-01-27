@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <fullName>Deacon</fullName>
     <active>true</active>
     <compactLayoutAssignment>Deacon_Compact_Layout</compactLayoutAssignment>
@@ -115,23 +115,23 @@
     <picklistValues>
         <picklist>Name</picklist>
         <values>
-            <fullName>Dr.</fullName>
+            <fullName>Dr%2E</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Mr.</fullName>
+            <fullName>Mr%2E</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Prof.</fullName>
+            <fullName>Prof%2E</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Rev. Dr.</fullName>
+            <fullName>Rev%2E Dr%2E</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Rev. Mr.</fullName>
+            <fullName>Rev%2E Mr%2E</fullName>
             <default>true</default>
         </values>
     </picklistValues>
@@ -218,7 +218,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Carm.O.L.</fullName>
+            <fullName>Carm%2EO%2EL%2E</fullName>
             <default>false</default>
         </values>
         <values>
@@ -258,7 +258,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>I.V.%2C Dei</fullName>
+            <fullName>I%2EV%2E%2C Dei</fullName>
             <default>false</default>
         </values>
         <values>
@@ -266,7 +266,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>M. Afr</fullName>
+            <fullName>M%2E Afr</fullName>
             <default>false</default>
         </values>
         <values>
@@ -302,7 +302,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>O.Praem.</fullName>
+            <fullName>O%2EPraem%2E</fullName>
             <default>false</default>
         </values>
         <values>
@@ -721,15 +721,15 @@
     <picklistValues>
         <picklist>npo02__Naming_Exclusions__c</picklist>
         <values>
-            <fullName>Household%5F%5Fc.Formal_Greeting%5F%5Fc</fullName>
+            <fullName>Household%5F%5Fc%2EFormal_Greeting%5F%5Fc</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Household%5F%5Fc.Informal_Greeting%5F%5Fc</fullName>
+            <fullName>Household%5F%5Fc%2EInformal_Greeting%5F%5Fc</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Household%5F%5Fc.Name</fullName>
+            <fullName>Household%5F%5Fc%2EName</fullName>
             <default>false</default>
         </values>
     </picklistValues>
