@@ -57,7 +57,7 @@
         <quickActionLayoutColumns/>
     </quickActionLayout>
     <standardLabel>New</standardLabel>
-    <successMessage>You\\\&apos;ve logged a new assignment!</successMessage>
+    <successMessage>You\&apos;ve logged a new assignment!</successMessage>
     <targetObject>Assignment__c</targetObject>
     <targetParentField>Contact__c</targetParentField>
     <targetRecordType>Assignment__c.Account</targetRecordType>
