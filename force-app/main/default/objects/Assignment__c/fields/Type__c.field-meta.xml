@@ -42,9 +42,9 @@
                 <label>Archdiocesan Ministry</label>
             </value>
             <value>
-                <fullName>Committee_Counsel_Board</fullName>
+                <fullName>Elected</fullName>
                 <default>false</default>
-                <label>Committee, Counsel, Board</label>
+                <label>Elected</label>
             </value>
             <value>
                 <fullName>In Residence (without other assignments)</fullName>
@@ -67,11 +67,6 @@
                 <label>On Leave</label>
             </value>
             <value>
-                <fullName>Employment (Priesthood, Perm. Diaconate)</fullName>
-                <default>false</default>
-                <label>Employment (Priesthood, Perm. Diaconate)</label>
-            </value>
-            <value>
                 <fullName>On Loan</fullName>
                 <default>false</default>
                 <label>On Loan</label>
@@ -80,6 +75,22 @@
                 <fullName>Study Leave</fullName>
                 <default>false</default>
                 <label>Study Leave</label>
+            </value>
+            <value>
+                <fullName>Appointed</fullName>
+                <default>false</default>
+                <label>Appointed</label>
+            </value>
+            <value>
+                <fullName>Ex Officio</fullName>
+                <default>false</default>
+                <label>Ex Officio</label>
+            </value>
+            <value>
+                <fullName>Employment (Priesthood, Perm. Diaconate)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Employment (Priesthood, Perm. Diaconate)</label>
             </value>
         </valueSetDefinition>
     </valueSet>
