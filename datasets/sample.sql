@@ -72,12 +72,19 @@ CREATE TABLE "Account" (
 	"npsp__Batch__c" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "Account" VALUES(1,'','True','True','','','','','','False','','','von Trapp Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Leisl von Trapp','','Leisl','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','3','');
-INSERT INTO "Account" VALUES(2,'','True','True','','','','','','False','','','von Trapp Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Dr. Georg von Trapp','','Georg','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','1','');
-INSERT INTO "Account" VALUES(3,'','True','True','','','','','','False','','','Rainer Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Sr. Maria Rainer','','Maria','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','2','');
-INSERT INTO "Account" VALUES(4,'','True','True','','','','','','False','','','Nonnberg Abbey','','','','','False','','0.0','','','','','','','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','','','','','','','','');
-INSERT INTO "Account" VALUES(5,'','True','True','','','','','','False','','','de la Croix Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Sr. Marion de la Croix','','Marion','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','4','');
-INSERT INTO "Account" VALUES(6,'','True','True','','','','','','False','','','Detweiler Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Mr. Max Detweiler','','Max','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','5','');
+INSERT INTO "Account" VALUES(1,'','True','True','','','','','','False','','','von Trapp Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Dr. Georg von Trapp','','Georg','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','4','');
+INSERT INTO "Account" VALUES(2,'','True','True','','','','','','False','','','Sisters of the Edelweiss','01254000002Po8nAAC','','','','False','','0.0','','','','','','','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','','','','','','','','');
+INSERT INTO "Account" VALUES(3,'','True','True','','','','','','False','','','The Cathedral Church of St. John Divine','01254000002Po8mAAC','','','','False','','0.0','','','','','','','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','','','','','','','','');
+INSERT INTO "Account" VALUES(4,'','True','True','','','','','','False','','','Wasner Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Rev. Franz Wasner','','Franz','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','6','');
+INSERT INTO "Account" VALUES(5,'','True','True','','','','','','False','','','Rainer Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Sr. Maria Rainer','','Maria','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','3','');
+INSERT INTO "Account" VALUES(6,'','True','True','','','','','','False','','','Nonnberg Abbey','','','','','False','','0.0','','','','','','','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','','','','','','','','');
+INSERT INTO "Account" VALUES(7,'','True','True','','','','','','False','','','von Trapp Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Leisl von Trapp','','Leisl','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','2','');
+INSERT INTO "Account" VALUES(8,'','True','True','','','','','','False','','','Rodgers Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Rev. Mr. Richard Rodgers','','Richard','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','7','');
+INSERT INTO "Account" VALUES(9,'','True','True','','','','','','False','','','Austrian Navy','01254000002PnY3AAK','','','','False','','0.0','','','','','','','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','','','','','','','','');
+INSERT INTO "Account" VALUES(10,'','True','True','','','','','','False','','','de la Croix Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Sr. Marion de la Croix','','Marion','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','1','');
+INSERT INTO "Account" VALUES(11,'','True','True','','','','','','False','','','Hammerstein Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Rev. Mr. Oscar Hammerstein','','Oscar','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','8','');
+INSERT INTO "Account" VALUES(12,'','True','True','','','','','','False','','','Detweiler Household','01254000002PnY2AAK','','','','True','Household Account','0.0','','','','Mr. Max Detweiler','','Max','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','1.0','','','','','','5','');
+INSERT INTO "Account" VALUES(13,'','True','True','','','','','','False','','','The Trapp Family Singers','01254000002PnY3AAK','','','','False','','0.0','','','','','','','0.0','','0.0','','','','0.0','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','0.0','0.0','0.0','','False','','','','','','False','','','','','','','','','','','','','');
 CREATE TABLE "Account_rt_mapping" (
 	record_type_id VARCHAR(18) NOT NULL, 
 	developer_name VARCHAR(255), 
@@ -105,8 +112,8 @@ CREATE TABLE "Assignment__c" (
 	"Contact__c" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "Assignment__c" VALUES(1,'True','','','True','Counsellor','True','False','','2020-06-29','Apostolate','1','','2');
-INSERT INTO "Assignment__c" VALUES(2,'False','','','True','Mother Superior','True','False','','','Religious Community','4','','4');
+INSERT INTO "Assignment__c" VALUES(1,'True','Decided to get married to Captain von Trapp.','','True','Counsellor','True','False','01254000002Po8rAAC','1978-06-01','On Loan','7','','3');
+INSERT INTO "Assignment__c" VALUES(2,'False','','2003-12-29','True','Mother Superior','True','False','01254000002Po8pAAC','','Religious Community','6','','1');
 CREATE TABLE "Assignment__c_rt_mapping" (
 	record_type_id VARCHAR(18) NOT NULL, 
 	developer_name VARCHAR(255), 
@@ -124,6 +131,9 @@ CREATE TABLE "Committee__c" (
 	"Name" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
+INSERT INTO "Committee__c" VALUES(1,'True','','','','Diocesan Committee for Human Rights and Freedoms');
+INSERT INTO "Committee__c" VALUES(2,'True','','','','Austrians against Fascism Steering Committee');
+INSERT INTO "Committee__c" VALUES(3,'True','','','2014-10-08','Von Trapp Steering Committee');
 CREATE TABLE "Contact" (
 	id INTEGER NOT NULL, 
 	"Birth_City_Province__c" VARCHAR(255), 
@@ -226,11 +236,14 @@ CREATE TABLE "Contact" (
 	"npsp__Primary_Affiliation__c" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "Contact" VALUES(1,'','','','','','False','','Georg','','False','False','von Trapp','','','','','','','','','','','','','','','','False','','','Home','Personal','Home','False','','','','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','2','','','','','','','2','');
-INSERT INTO "Contact" VALUES(2,'','','','','','False','','Maria','','False','False','Rainer','','','','','','','','','','','','','','','','False','','','Home','Personal','','False','','','','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','3','','','','','','','','');
-INSERT INTO "Contact" VALUES(3,'','','','','','False','','Leisl','','False','False','von Trapp','','','','','','','','','','','','','','','','False','','','Home','Personal','','False','','','','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','1','','','','','','','','');
-INSERT INTO "Contact" VALUES(4,'','','','','','False','','Marion','','False','False','de la Croix','','','','','','','','','','','','','','','','False','','','Home','Personal','Home','False','','','','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','5','','','','','','','1','');
-INSERT INTO "Contact" VALUES(5,'','','','','','False','','Max','','False','False','Detweiler','','','','','','','','','','','','','','','','False','','','Home','Personal','Home','False','','','','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','6','','','','','','','3','');
+INSERT INTO "Contact" VALUES(1,'','','','','','False','','Marion','','False','False','de la Croix','','','','','','','','','01254000002Q0gDAAS','','','','','','','False','','','Home','Personal','Home','False','','','','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','10','','','','','','','1','');
+INSERT INTO "Contact" VALUES(2,'','','','','','False','','Leisl','','False','False','von Trapp','','','','','','','','','','','','','','','','False','','','Home','Personal','','False','','','','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','7','','','','','','','','');
+INSERT INTO "Contact" VALUES(3,'','','','','','False','','Maria','','False','False','Rainer','','','','','','','','','','','','','','','','False','','','Home','Personal','','False','','','','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','5','','','','','','','','');
+INSERT INTO "Contact" VALUES(4,'','','','','','False','','Georg','','False','False','von Trapp','','','','','','','','','','','','','','','','False','','','Home','Personal','Home','False','','','','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','1','','','','','','','2','13');
+INSERT INTO "Contact" VALUES(5,'','','','','','False','','Max','','False','False','Detweiler','','','','','','','','','','','','','','','','False','','','Home','Personal','Home','False','','','','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','12','','','','','','','3','');
+INSERT INTO "Contact" VALUES(6,'','','','','1970-01-23','True','','Franz','','False','False','Wasner','','','','','','Retired','','','01254000002Po8vAAC','','','CSJ','','','Diocesan','False','','','Work','Work','','False','','','fwasner@autrianpriests.org','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','4','','7','','','','','','');
+INSERT INTO "Contact" VALUES(7,'','','','','','False','Broadway Musicals Inc.','Richard','','False','False','Rodgers','','','Widowed','','','Active','Musical Producer','','01254000002Po8tAAC','','','','2025','','','False','','','Home','Work','','False','','','rogersandhammerestein@musicals.com','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','8','','','','','','','','');
+INSERT INTO "Contact" VALUES(8,'','','','','','False','','Oscar','','False','False','Hammerstein','','','Married','','','Active','','','01254000002Po8tAAC','','','','','','','False','','','Home','Work','','False','','','','','0.0','','','','','0.0','','0.0','','','','0.0','','','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','','','','','','0.0','0.0','False','False','False','False','False','','','','','','','','','','','','0.0','False','11','','','','','','','','');
 CREATE TABLE "Contact_rt_mapping" (
 	record_type_id VARCHAR(18) NOT NULL, 
 	developer_name VARCHAR(255), 
@@ -240,6 +253,7 @@ INSERT INTO "Contact_rt_mapping" VALUES('01254000002Po8sAAC','Consecrated');
 INSERT INTO "Contact_rt_mapping" VALUES('01254000002Po8tAAC','Deacon');
 INSERT INTO "Contact_rt_mapping" VALUES('01254000002Po8uAAC','Lay_Person');
 INSERT INTO "Contact_rt_mapping" VALUES('01254000002Po8vAAC','Priest');
+INSERT INTO "Contact_rt_mapping" VALUES('01254000002Q0gDAAS','Religious');
 CREATE TABLE "npe5__Affiliation__c" (
 	id INTEGER NOT NULL, 
 	"RecordTypeId" VARCHAR(255), 
@@ -255,11 +269,19 @@ CREATE TABLE "npe5__Affiliation__c" (
 	"npe5__Organization__c" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
+INSERT INTO "npe5__Affiliation__c" VALUES(1,'01254000002Po8yAAC','-','','2009-04-17','False','Volunteer Director - Musical Ensemble','1977-11-03','Former','','8','3');
+INSERT INTO "npe5__Affiliation__c" VALUES(2,'01254000002Po8wAAC','Full Time','','2021-01-26','False','Captain','1932-04-15','Former','','4','9');
+INSERT INTO "npe5__Affiliation__c" VALUES(3,'01254000002Po8wAAC','Full Time','','','True','Singer','1947-12-31','Current','','4','13');
+INSERT INTO "npe5__Affiliation__c" VALUES(4,'01254000002Po8zAAC','','','','False','Gardener','2017-01-11','Current','','7','2');
 CREATE TABLE "npe5__Affiliation__c_rt_mapping" (
 	record_type_id VARCHAR(18) NOT NULL, 
 	developer_name VARCHAR(255), 
 	PRIMARY KEY (record_type_id)
 );
+INSERT INTO "npe5__Affiliation__c_rt_mapping" VALUES('01254000002Po8wAAC','Employment');
+INSERT INTO "npe5__Affiliation__c_rt_mapping" VALUES('01254000002Po8xAAC','Ministry_Leadership');
+INSERT INTO "npe5__Affiliation__c_rt_mapping" VALUES('01254000002Po8yAAC','Parishioner');
+INSERT INTO "npe5__Affiliation__c_rt_mapping" VALUES('01254000002Po8zAAC','Volunteer');
 CREATE TABLE "npo02__Household__c" (
 	id INTEGER NOT NULL, 
 	"Name" VARCHAR(255), 
@@ -338,9 +360,9 @@ CREATE TABLE "npsp__Address__c" (
 	"npsp__Household_Account__c" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "npsp__Address__c" VALUES(1,'','Home','','False','','','True','False','','2021-01-25','Salzberg','Germany','','','','Nonberg Abbey','','','','','','','','','','','','False','5');
-INSERT INTO "npsp__Address__c" VALUES(2,'','Home','','False','','','True','False','','2021-01-25','Salzberg','Germany','','','','124 Aigen','','','','','','','','','','','','False','2');
-INSERT INTO "npsp__Address__c" VALUES(3,'','Home','','False','','','True','False','','2021-01-25','Salzberg','Germany','','','','','','','','','','','','','','','','False','6');
+INSERT INTO "npsp__Address__c" VALUES(1,'','Home','','False','','','True','False','','2021-01-25','Salzberg','Germany','','','','Nonberg Abbey','','','','','','','','','','','','False','10');
+INSERT INTO "npsp__Address__c" VALUES(2,'','Home','','False','','','True','False','','2021-01-25','Salzberg','Germany','','','','124 Aigen','','','','','','','','','','','','False','1');
+INSERT INTO "npsp__Address__c" VALUES(3,'','Home','','False','','','True','False','','2021-01-25','Salzberg','Germany','','','','','','','','','','','','','','','','False','12');
 CREATE TABLE "npsp__Batch__c" (
 	id INTEGER NOT NULL, 
 	"Name" VARCHAR(255), 
