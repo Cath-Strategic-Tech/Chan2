@@ -678,7 +678,15 @@
     <picklistValues>
         <picklist>Type__c</picklist>
         <values>
-            <fullName>Committee_Counsel_Board</fullName>
+            <fullName>Appointed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ex Officio</fullName>
             <default>false</default>
         </values>
     </picklistValues>

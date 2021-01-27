@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Chancery_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
         <logo>churchchristianholyplacebuildigemoj</logo>
@@ -10,7 +18,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>Chancery Office</label>
+    <label>Chancery</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>standard-Contact</tabs>
@@ -20,6 +28,7 @@
     <tabs>npe5__Affiliation__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Feed</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Chancery_Office_UtilityBar</utilityBar>
 </CustomApplication>
