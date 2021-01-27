@@ -3,7 +3,7 @@ project:
     name: Chan2
     package:
         name: Chan2
-        namespace: Chan2
+        namespace: chan02
         api_version: '50.0'
     dependencies:
         - github: 'https://github.com/SalesforceFoundation/NPSP'
