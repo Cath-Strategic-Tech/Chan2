@@ -165,6 +165,7 @@ tasks:
                 - record_type: "Contact.Deacon"
                 - record_type: "Contact.Priest"
                 - record_type: "Contact.Consecrated"
+                - record_type: "Contact.Religious"
                 - record_type: "Account.Church"
                 - record_type: "Account.Organization"
                   default: true
@@ -226,7 +227,8 @@ flows:
               options:
                   objects:
                       - npe4__Relationship__c
-              when: "'npsp' in org_config.installed_packages'"
+                      - npe5__Affiliation__c
+              when: "'npsp' in org_config.installed_packages"
           2:
               task: delete_data
               options:
@@ -234,4 +236,4 @@ flows:
                       - Contact
                       - Account
                       - Assignment__c
-                      - npe5__Affiliation__c
+                      - Committee__c
