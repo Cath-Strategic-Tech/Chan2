@@ -119,6 +119,14 @@ tasks:
         - label: Residence
           fullName: Residence
 
+  disable_tdtm_trigger_handlers:
+      options:
+          namespace: npsp
+
+  restore_tdtm_trigger_handlers:
+      options:
+          namespace: npsp
+
   list_changes:
     name: List Changes from Scratch Org
     description: List the changes from a scratch org
@@ -162,7 +170,7 @@ tasks:
                   default: true
                 - record_type: "Account.Religious"
                 - record_type: "Account.School"
-                - record_type: "Account.Household_Account"
+                - record_type: "Account.HH_Account"
                 - record_type: "Assignment__c.Account"
                   default: true
                 - record_type: "Assignment__c.Committee"
@@ -171,8 +179,7 @@ tasks:
                 - record_type: "npe5__Affiliation__c.Ministry_Leadership"
                 - record_type: "npe5__Affiliation__c.Parishioner"
                 - record_type: "npe5__Affiliation__c.Volunteer"
-            api_name:
-                - Admin
+
 
  
 flows:
@@ -193,3 +200,37 @@ flows:
     steps:
         3:
           task: load_dataset
+  
+  load_data:
+        steps:
+            1:
+                task: disable_tdtm_trigger_handlers
+                when: "'npsp' in org_config.installed_packages"
+            3:
+                task: load_dataset
+                options:
+                    drop_missing_schema: True
+            4:
+                task: restore_tdtm_trigger_handlers
+                when: "'npsp' in org_config.installed_packages"
+            5:
+                task: execute_anon
+                options:
+                    path: "data/scripts/update_all_records_as_recently_viewed.apex"
+
+  delete_data:
+      steps:
+          1:
+              task: delete_data
+              options:
+                  objects:
+                      - npe4__Relationship__c
+              when: "'npsp' in org_config.installed_packages'"
+          2:
+              task: delete_data
+              options:
+                  objects:
+                      - Contact
+                      - Account
+                      - Assignment__c
+                      - npe5__Affiliation__c
