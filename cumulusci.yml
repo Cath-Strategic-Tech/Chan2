@@ -177,6 +177,7 @@ tasks:
                 - record_type: "Assignment__c.On_Leave"
                 - record_type: "npe5__Affiliation__c.Employment"
                 - record_type: "npe5__Affiliation__c.Ministry_Leadership"
+                  default: true
                 - record_type: "npe5__Affiliation__c.Parishioner"
                 - record_type: "npe5__Affiliation__c.Volunteer"
 
