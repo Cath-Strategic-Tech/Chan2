@@ -156,6 +156,36 @@ tasks:
         options:
             required_org_code_coverage_percent: 75
 
+  uninstall_packaged_incremental:
+    description: Deletes any metadata from the package in the target org not in the local workspace
+    class_path: cumulusci.tasks.salesforce.UninstallPackagedIncremental
+    options:
+      ignore:
+        QuickAction:
+          - NewTask
+          - NewContact
+          - NewLead
+          - LogACall
+          - NewEvent
+          - NewCase
+          - SendEmail
+          - Case.LogACall
+          - NewOpportunity
+        FlexiPage:
+          - NPSP_Address_Record_Page
+          - NPSP_Deliverable
+          - NPSP_Engagement_Plan_Record_Page
+          - NPSP_GAU_Allocation
+          - NPSP_General_Accounting_Unit
+        ListView:
+          - Household_Accounts
+          - Resource_Organization_Accounts
+        CompactLayout:
+          - OCC_HH_Acct_Compact_Layout
+          - OCC_Org_Acct_Compact_Layout
+
+
+ 
   update_admin_profile:
         # description: Retrieves, edits, and redeploys the System Administrator profile with full FLS perms for all objects/fields. Also sets record type visibilities.
         options:
