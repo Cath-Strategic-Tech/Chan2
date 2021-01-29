@@ -21,6 +21,7 @@
     <label>Chancery</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
+    <tabs>standard-Feed</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Account</tabs>
     <tabs>Committee__c</tabs>
@@ -28,7 +29,6 @@
     <tabs>npe5__Affiliation__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>standard-Feed</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Chancery_Office_UtilityBar</utilityBar>
 </CustomApplication>
