@@ -184,8 +184,6 @@ tasks:
           - OCC_HH_Acct_Compact_Layout
           - OCC_Org_Acct_Compact_Layout
 
-
- 
   update_admin_profile:
         # description: Retrieves, edits, and redeploys the System Administrator profile with full FLS perms for all objects/fields. Also sets record type visibilities.
         options:
