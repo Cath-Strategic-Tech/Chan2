@@ -45,6 +45,10 @@
                 <behavior>Edit</behavior>
                 <field>Date_of_Diaconate_Ordination__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Legacy_ID__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -106,10 +110,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Remaining_Years__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Marriage_License__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
