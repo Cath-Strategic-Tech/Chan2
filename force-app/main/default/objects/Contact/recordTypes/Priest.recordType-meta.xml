@@ -68,7 +68,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Active</fullName>
+            <fullName>Active in Diocese</fullName>
             <default>true</default>
         </values>
         <values>
@@ -96,18 +96,22 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Left RCAV</fullName>
+            <fullName>Left Diocese</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Retired</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Sabbatical</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Name</picklist>
         <values>
-            <fullName>Fr.</fullName>
+            <fullName>Fr%2E</fullName>
             <default>false</default>
         </values>
         <values>
@@ -115,23 +119,23 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Most Rev.</fullName>
+            <fullName>Most Rev%2E</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Rev.</fullName>
+            <fullName>Rev%2E</fullName>
             <default>true</default>
         </values>
         <values>
-            <fullName>Rev. Msgr.</fullName>
+            <fullName>Rev%2E Msgr%2E</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Rt. Rev.</fullName>
+            <fullName>Rt%2E Rev%2E</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Very Rev.</fullName>
+            <fullName>Very Rev%2E</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -218,7 +222,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Carm.O.L.</fullName>
+            <fullName>Carm%2EO%2EL%2E</fullName>
             <default>false</default>
         </values>
         <values>
@@ -258,7 +262,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>I.V.%2C Dei</fullName>
+            <fullName>I%2EV%2E%2C Dei</fullName>
             <default>false</default>
         </values>
         <values>
@@ -266,7 +270,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>M. Afr</fullName>
+            <fullName>M%2E Afr</fullName>
             <default>false</default>
         </values>
         <values>
@@ -302,7 +306,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>O.Praem.</fullName>
+            <fullName>O%2EPraem%2E</fullName>
             <default>false</default>
         </values>
         <values>
@@ -701,15 +705,15 @@
     <picklistValues>
         <picklist>npo02__Naming_Exclusions__c</picklist>
         <values>
-            <fullName>Household%5F%5Fc.Formal_Greeting%5F%5Fc</fullName>
+            <fullName>Household%5F%5Fc%2EFormal_Greeting%5F%5Fc</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Household%5F%5Fc.Informal_Greeting%5F%5Fc</fullName>
+            <fullName>Household%5F%5Fc%2EInformal_Greeting%5F%5Fc</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Household%5F%5Fc.Name</fullName>
+            <fullName>Household%5F%5Fc%2EName</fullName>
             <default>false</default>
         </values>
     </picklistValues>

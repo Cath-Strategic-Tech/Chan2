@@ -45,6 +45,10 @@
                 <behavior>Edit</behavior>
                 <field>Country_of_Birth__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Religious_Suffix_2__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
