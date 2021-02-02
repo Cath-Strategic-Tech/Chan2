@@ -8,16 +8,15 @@
     <required>false</required>
     <securityClassification>Confidential</securityClassification>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Active</fullName>
+                <fullName>Active in Diocese</fullName>
                 <default>false</default>
-                <label>Active in RCAV</label>
+                <label>Active in Diocese</label>
             </value>
             <value>
                 <fullName>ActOther</fullName>
@@ -85,9 +84,9 @@
                 <label>Deceased</label>
             </value>
             <value>
-                <fullName>Left RCAV</fullName>
+                <fullName>Left Diocese</fullName>
                 <default>false</default>
-                <label>Left RCAV</label>
+                <label>Left Diocese</label>
             </value>
             <value>
                 <fullName>N/A</fullName>
