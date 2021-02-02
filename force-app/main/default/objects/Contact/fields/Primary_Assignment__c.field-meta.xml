@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <fullName>Primary_Assignment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Primary Assignment as marked on c_Assigments; used only for Priests, Deacons, Religious.</description>
@@ -10,6 +10,5 @@
     <relationshipName>Contacts1</relationshipName>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
     <type>Lookup</type>
 </CustomField>
