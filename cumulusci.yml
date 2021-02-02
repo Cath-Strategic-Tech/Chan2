@@ -6,7 +6,7 @@ project:
         namespace: chan02
         api_version: '50.0'
     dependencies:
-        - github: 'https://github.com/SalesforceFoundation/NPSP'
+        - github: 'https://github.com/SalesforceFoundation/Affiliations'
     git:
         default_branch: 'main'
     source_format: sfdx
@@ -220,11 +220,6 @@ flows:
         task: add_standard_value_set_entries_salutation
       4:
         task: add_standard_value_set_entries_account_type
-
-  config_dev:
-    steps:
-        3:
-          task: load_dataset
 
   config_qa:
     steps:
