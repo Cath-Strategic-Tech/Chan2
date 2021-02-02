@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Ministerial_Status__c</fullName>
-    <description>Canonical ministerial statuses for Priests, Deacons, and Religious.</description>
+    <description>Various ministerial statuses for Priests, Deacons, and Religious.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Canonical ministerial statuses for Priests, Deacons, and Religious.</inlineHelpText>
+    <inlineHelpText>Various ministerial statuses for Priests, Deacons, and Religious.</inlineHelpText>
     <label>Ministerial Status</label>
     <required>false</required>
     <securityClassification>Confidential</securityClassification>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
-        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
@@ -92,6 +91,11 @@
                 <fullName>N/A</fullName>
                 <default>false</default>
                 <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Sabbatical</fullName>
+                <default>false</default>
+                <label>Sabbatical</label>
             </value>
         </valueSetDefinition>
     </valueSet>

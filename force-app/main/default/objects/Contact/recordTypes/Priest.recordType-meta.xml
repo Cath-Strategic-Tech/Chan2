@@ -103,6 +103,10 @@
             <fullName>Retired</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Sabbatical</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Name</picklist>
