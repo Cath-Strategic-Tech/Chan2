@@ -1,9 +1,8 @@
-# Chan2
+# Chancery App (Chan2)
 
-Add a brief description of this project here, in Markdown format.
-It will be shown on the main page of the project's GitHub repository.
+A Salesforce NPSP-dependent app design to support the needs of Roman Catholic Diocese, but by the Strategic Technology team at the Archdiocese of Vancouver. 
 
-## Development
+## How to contribute
 
 To work on this project in a scratch org:
 
