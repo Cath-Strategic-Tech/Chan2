@@ -6,7 +6,7 @@ project:
         namespace: chan02
         api_version: '50.0'
     dependencies:
-        - github: 'https://github.com/SalesforceFoundation/Affiliations'
+        - github: 'https://github.com/SalesforceFoundation/NPSP'
     git:
         default_branch: 'main'
     source_format: sfdx
@@ -14,7 +14,7 @@ project:
 tasks:
 
   add_standard_value_set_entries_salutation:
-    description: Adds specified picklist entries to Case Origin Standard Value Set.
+    description: Adds specified picklist entries to Salutation Standard Value Set.
     class_path: cumulusci.tasks.metadata_etl.AddValueSetEntries
     options:
       api_names:
@@ -54,7 +54,7 @@ tasks:
           fullName: Judge
 
   add_standard_value_set_entries_account_type:
-    description: Adds specified picklist entries to Case Origin Standard Value Set.
+    description: Adds specified picklist entries to AccountType Standard Value Set.
     class_path: cumulusci.tasks.metadata_etl.AddValueSetEntries
     options:
       api_names:
