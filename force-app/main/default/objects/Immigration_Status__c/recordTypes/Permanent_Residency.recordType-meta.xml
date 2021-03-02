@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Permanent_Residency</fullName>
+    <active>true</active>
+    <label>Permanent Residency</label>
+    <picklistValues>
+        <picklist>Num_of_Entries__c</picklist>
+        <values>
+            <fullName>Multiple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One%2Fsingle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
