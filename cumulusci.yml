@@ -13,6 +13,11 @@ project:
 
 tasks:
 
+  assign_permission_sets:
+    class_path: cumulusci.tasks.salesforce.users.permsets.AssignPermissionSets
+    options:
+      api_names: Chancery_App_User, Immigration_Status_user
+
   add_standard_value_set_entries_salutation:
     description: Adds specified picklist entries to Salutation Standard Value Set.
     class_path: cumulusci.tasks.metadata_etl.AddValueSetEntries
@@ -209,6 +214,11 @@ tasks:
                   default: true
                 - record_type: "npe5__Affiliation__c.Parishioner"
                 - record_type: "npe5__Affiliation__c.Volunteer"
+                - record_type: "Immigration_Status__c:Visa"
+                  default: true
+                - record_type: "Immigration_Status__c:Citizenship"
+                - record_type: "Immigration_Status__c:Passport"
+                - record_type: "Immigration_Status__c:Permanent_Residency"
 
 
  
@@ -221,10 +231,19 @@ flows:
       4:
         task: add_standard_value_set_entries_account_type
 
+  config_dev:
+    steps:
+        3:
+          task: load_dataset
+        4: 
+          task: assign_permission_sets
+
   config_qa:
     steps:
         3:
           task: load_dataset
+        4: 
+          task: assign_permission_sets
   
   load_data:
         steps:
