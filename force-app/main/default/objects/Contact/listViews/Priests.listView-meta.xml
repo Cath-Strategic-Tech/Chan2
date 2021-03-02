@@ -3,11 +3,11 @@
     <fullName>Priests</fullName>
     <columns>CONTACT.SALUTATION</columns>
     <columns>FULL_NAME</columns>
-    <columns>Primary_Assignment__c</columns>
+    <columns>Religious_Suffix_2__c</columns>
     <columns>CONTACT.PHONE1</columns>
     <columns>CONTACT.EMAIL</columns>
     <columns>CONTACT.TITLE</columns>
-    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Clergy_ID__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>CONTACT.RECORDTYPE</field>
