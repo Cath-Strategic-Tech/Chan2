@@ -6,6 +6,7 @@
     <fields>Phone</fields>
     <fields>Website</fields>
     <fields>Email__c</fields>
+    <fields>BillingAddress</fields>
     <fields>Date_of_Dedication__c</fields>
     <fields>npe01__One2OneContact__c</fields>
     <fields>Related_Elementary_School__c</fields>
