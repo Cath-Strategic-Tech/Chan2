@@ -214,14 +214,12 @@ tasks:
                   default: true
                 - record_type: "npe5__Affiliation__c.Parishioner"
                 - record_type: "npe5__Affiliation__c.Volunteer"
-                - record_type: "Immigration_Status__c:Visa"
+                - record_type: Immigration_Status__c.Citizenship
+                - record_type: Immigration_Status__c.Passport
+                - record_type: Immigration_Status__c.Permanent_Residency
+                - record_type: Immigration_Status__c.Visa
                   default: true
-                - record_type: "Immigration_Status__c:Citizenship"
-                - record_type: "Immigration_Status__c:Passport"
-                - record_type: "Immigration_Status__c:Permanent_Residency"
 
-
- 
 flows:
 
   dependencies:
