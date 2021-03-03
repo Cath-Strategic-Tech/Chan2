@@ -1,0 +1,99 @@
++# This will create 5 Parish Account, 5 Priest Contacts, and 25 Assignment records 
+
+
+# First, let's create the Account
+- object: Account
+  count: 5
+  nickname: Parish
+  fields:
+    Name:
+      fake: company
+    BillingStreet:
+      fake: street_address
+    BillingCity:
+      fake: city
+    BillingState:
+      fake: state
+    BillingPostalCode:
+      fake: postalcode
+    BillingCountry: Canada
+    Description:
+      fake: catch_phrase
+    Phone:
+      fake: phone_number
+    Website: 
+      fake: uri
+    NumberOfEmployees:
+      random_number:
+        min: 2
+        max: 10
+    RecordType: Church
+
+# Now we can create the Contacts
+- object: Contact
+  nickname: Contact
+  count: 5
+  fields: 
+    FirstName:
+      fake: first_name
+    LastName:
+      fake: last_name
+    HomePhone:
+      fake: phone_number
+    npe01__WorkPhone__c:
+      fake: phone_number
+    MobilePhone:
+      fake: phone_number
+    npe01__PreferredPhone__c:
+      random_choice:
+        - Home
+        - Work
+        - Mobile
+    npe01__HomeEmail__c:
+      fake: email
+    npe01__WorkEmail__c:
+      fake: email
+    npe01__Preferred_Email__c:
+      random_choice:
+        - Personal
+        - Work
+        - Alternate
+    MailingStreet:
+      fake: street_address
+    MailingCity:
+      fake: city
+    MailingState:
+      fake: state
+    MailingPostalCode:
+      fake: postalcode
+    MailingCountry: USA
+    RecordType: Priest
+
+  # Finally, let's create the Affiliations (1 for each Contact)
+  assignment:
+    - object: Assignment__c
+      count: 5
+      nickname: Assignment
+      fields: 
+        Start_Date__c:
+          date_between:
+            start_date: -2y
+            end_date: -3m
+        Active__c: 
+          random_choice:
+            - Current
+            - Former
+        End_Date__c:
+          if:
+            - choice:
+                when: ${{Active__c=='Former'}}
+                pick:
+                  date_between:
+                    start_date: -3m
+                    end_date: -1d
+            - choice:
+                pick: null
+        npe5__Contact__c:
+          reference: Contact
+        npe5__Organization__c:
+          reference: Organization
