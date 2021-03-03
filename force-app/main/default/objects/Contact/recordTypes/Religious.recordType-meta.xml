@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <fullName>Religious</fullName>
     <active>true</active>
+    <compactLayoutAssignment>Religious_Compact</compactLayoutAssignment>
     <label>Religious</label>
     <picklistValues>
         <picklist>Gender__c</picklist>

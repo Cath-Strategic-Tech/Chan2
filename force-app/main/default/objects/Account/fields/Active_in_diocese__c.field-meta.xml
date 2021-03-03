@@ -7,6 +7,5 @@
     <inlineHelpText>Active = Local members are active in the Archdiocese, or RCAV is actively partnering with their order.</inlineHelpText>
     <label>Active in diocese?</label>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>
