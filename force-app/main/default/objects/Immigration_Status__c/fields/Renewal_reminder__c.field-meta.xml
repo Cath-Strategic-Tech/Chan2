@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_reminder__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If checked yes, the record owner will receive a task to remind the constituent to renew their visa 6 months in advance of expiry date.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked yes, the record owner will receive a task to remind the constituent to renew their visa 6 months in advance of expiry date.</inlineHelpText>
+    <label>Renewal reminder?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
