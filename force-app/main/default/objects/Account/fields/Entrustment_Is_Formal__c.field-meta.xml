@@ -7,5 +7,6 @@
     <inlineHelpText>Is there form Entrustment documentation? Or is this parish simply pastored my members of the religious community?</inlineHelpText>
     <label>Entrustment Formalized</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Home_Parish__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
@@ -9,5 +9,6 @@
     <relationshipName>Parishioners</relationshipName>
     <required>false</required>
     <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Lookup</type>
 </CustomField>
