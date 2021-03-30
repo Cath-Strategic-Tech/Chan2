@@ -218,6 +218,7 @@ tasks:
                 - record_type: Immigration_Status__c.Passport
                 - record_type: Immigration_Status__c.Permanent_Residency
                 - record_type: Immigration_Status__c.Visa
+                - record_type: Immigration_Status__c.Permit
                   default: true
 
 flows:
