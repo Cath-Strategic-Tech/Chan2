@@ -14,4 +14,23 @@
             <default>false</default>
         </values>
     </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Visa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temporary Resident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work Visa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>
