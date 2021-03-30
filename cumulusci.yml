@@ -191,65 +191,33 @@ tasks:
 
   update_admin_profile:
         # description: Retrieves, edits, and redeploys the System Administrator profile with full FLS perms for all objects/fields. Also sets record type visibilities.
-        options:
+      options:
             record_types:
-                - record_type: Contact.Lay_Person
+                - record_type: "Contact.Lay_Person"
                   default: true
-                - record_type: Contact.Deacon
-                - record_type: Contact.Priest
-                - record_type: Contact.Consecrated
-                - record_type: Contact.Religious
-                - record_type: Account.Church
-                - record_type: Account.Organization
+                - record_type: "Contact.Deacon"
+                - record_type: "Contact.Priest"
+                - record_type: "Contact.Consecrated"
+                - record_type: "Contact.Religious"
+                - record_type: "Account.Church"
+                - record_type: "Account.Organization"
                   default: true
-                - record_type: Account.Religious
-                - record_type: Account.School
-                - record_type: Account.HH_Account
-                - record_type: Assignment__c.Account
+                - record_type: "Account.Religious"
+                - record_type: "Account.School"
+                - record_type: "Account.HH_Account"
+                - record_type: "Assignment__c.Account"
                   default: true
-                - record_type: Assignment__c.Committee
-                - record_type: Assignment__c.On_Leave
-                - record_type: npe5__Affiliation__c.Employment
-                - record_type: npe5__Affiliation__c.Ministry_Leadership
+                - record_type: "Assignment__c.Committee"
+                - record_type: "Assignment__c.On_Leave"
+                - record_type: "npe5__Affiliation__c.Employment"
+                - record_type: "npe5__Affiliation__c.Ministry_Leadership"
                   default: true
-                - record_type: npe5__Affiliation__c.Parishioner
-                - record_type: npe5__Affiliation__c.Volunteer
+                - record_type: "npe5__Affiliation__c.Parishioner"
+                - record_type: "npe5__Affiliation__c.Volunteer"
                 - record_type: Immigration_Status__c.Citizenship
                 - record_type: Immigration_Status__c.Passport
                 - record_type: Immigration_Status__c.Permanent_Residency
                 - record_type: Immigration_Status__c.Visa
-                  default: true
-
-  update_admin_profile_managed:
-          # description: Retrieves, edits, and redeploys the System Administrator profile with full FLS perms for all objects/fields. Also sets record type visibilities.
-          class_path: cumulusci.tasks.salesforce.UpdateAdminProfile
-          options:
-            record_types:
-                - record_type: "Contact.{managed}Lay_Person"
-                  default: true
-                - record_type: "Contact.{managed}Deacon"
-                - record_type: "Contact.{managed}Priest"
-                - record_type: "Contact.{managed}Consecrated"
-                - record_type: "Contact.{managed}Religious"
-                - record_type: "Account.{managed}Church"
-                - record_type: "Account.{managed}Organization"
-                  default: true
-                - record_type: "Account.{managed}Religious"
-                - record_type: "Account.{managed}School"
-                - record_type: "Account.HH_Account"
-                - record_type: "{managed}Assignment__c.{managed}Account"
-                  default: true
-                - record_type: "{managed}Assignment__c.{managed}Committee"
-                - record_type: "{managed}Assignment__c.{managed}On_Leave"
-                - record_type: "npe5__Affiliation__c.{managed}Employment"
-                - record_type: "npe5__Affiliation__c.{managed}Ministry_Leadership"
-                  default: true
-                - record_type: "npe5__Affiliation__c.{managed}Parishioner"
-                - record_type: "npe5__Affiliation__c.{managed}Volunteer"
-                - record_type: "{managed}Immigration_Status__c.{managed}Citizenship"
-                - record_type: "{managed}Immigration_Status__c.{managed}Passport"
-                - record_type: "{managed}Immigration_Status__c.{managed}Permanent_Residency"
-                - record_type: "{managed}Immigration_Status__c.{managed}Visa"
                   default: true
 
 flows:
