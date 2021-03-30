@@ -1,0 +1,69 @@
+- object: Account
+  count: 5
+  fields:
+    name: Saint ${{fake.first_name}} Parish
+    record type: Church
+
+- object: Account
+  count: 2
+  fields:
+    name: Saint ${{fake.first_name}} Parish Planning Committee 
+
+- object: Contact
+  count: 4
+  fields:
+    record type:
+      random_choice:
+        - Priest
+        - Deacon
+        - Religious
+    name:
+      if:
+        - choice:
+            when: ${{record type='Priest'}}
+            pick:
+              fake: first_name_male
+            
+        - choice:
+            when: ${{record type='Deacon'}}
+            pick:
+              fake: first_name_male
+        
+        - choice:
+            when: ${{record type='Religious'}}
+            pick:
+              fake: first_name_female
+
+        - choice:
+            pick:
+              fake: first_name
+    salutation:
+      if:
+        - choice:
+            when: ${{record type='Priest'}}
+            pick: Rev.
+        
+        - choice:
+            when: ${{record type='Deacon'}}
+            pick: Dn.
+        
+        - choice:
+            when: ${{record type='Religious'}}
+            pick: Sr. 
+
+          - choice:
+            when:
+            pick:
+
+
+
+  
+  friends: # related records
+    - object: Assignment
+      count: 4
+      fields:
+        Account:.....
+    - object: Assignment
+      count: 1
+      fields:
+        Committee:.....
