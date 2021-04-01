@@ -55,8 +55,6 @@
             when:
             pick:
 
-
-
   
   friends: # related records
     - object: Assignment
