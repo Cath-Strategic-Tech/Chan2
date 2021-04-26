@@ -182,6 +182,8 @@ tasks:
           - NPSP_Engagement_Plan_Record_Page
           - NPSP_GAU_Allocation
           - NPSP_General_Accounting_Unit
+          - Account_Record_Page
+          - Contact_Record_Page
         ListView:
           - Household_Accounts
           - Resource_Organization_Accounts
