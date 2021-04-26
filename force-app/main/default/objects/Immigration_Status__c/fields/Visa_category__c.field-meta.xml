@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Visa_category__c</fullName>
+    <description>DEPRECATED</description>
     <externalId>false</externalId>
-    <label>Visa category</label>
+    <label>zVisa category - Deprecated</label>
     <length>20</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

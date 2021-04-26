@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Citizenship</fullName>
+    <fullName>Permit</fullName>
     <active>true</active>
-    <label>Citizenship</label>
+    <description>Represents a granted Permit to work, live, or study in the granting country.</description>
+    <label>Permit</label>
     <picklistValues>
         <picklist>Num_of_Entries__c</picklist>
         <values>
             <fullName>Multiple</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>N%2FA</fullName>
             <default>false</default>
         </values>
         <values>
@@ -22,6 +19,14 @@
         <picklist>Type__c</picklist>
         <values>
             <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visitor Record</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work Permit</fullName>
             <default>false</default>
         </values>
     </picklistValues>
