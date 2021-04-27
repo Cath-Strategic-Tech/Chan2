@@ -22,8 +22,8 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Active__c</field>
+                <behavior>Readonly</behavior>
+                <field>Is_Active__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
