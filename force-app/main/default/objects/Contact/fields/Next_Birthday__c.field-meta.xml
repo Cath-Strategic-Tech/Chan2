@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Birthday__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ 
+YEAR(TODAY())*10000+MONTH(TODAY())*100+DAY(TODAY())  &lt;  YEAR(TODAY())*10000+MONTH(Birthdate )*100+DAY(Birthdate),
+ 
+DATE(YEAR(TODAY()),MONTH(Birthdate),DAY(Birthdate)),
+ 
+DATE(YEAR(TODAY()+365),MONTH(Birthdate),DAY(Birthdate))
+ 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Next Birthday</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>
