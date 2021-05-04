@@ -8,12 +8,12 @@ on:
 env:
     CUMULUSCI_KEYCHAIN_CLASS: cumulusci.core.keychain.EnvironmentProjectKeychain
     CUMULUSCI_SERVICE_github: ${{ secrets.CUMULUSCI_SERVICE_github }}
-    CUMULUSCI_ORG_packaging: '{"username": "mmartin.chan2@cts.org ", "instance_url": "https://romancatholicarchdioceseof2-dev-ed.lightning.force.com/"}'
+    CUMULUSCI_ORG_packaging: '{"username": "mmartin.chan2@cts.org", "instance_url": "https://romancatholicarchdioceseof2-dev-ed.my.salesforce.com/"}'
     SFDX_CLIENT_ID: ${{ secrets.SFDX_CLIENT_ID }}
     SFDX_HUB_KEY: ${{ secrets.SFDX_HUB_KEY }}
 jobs:
   deploy_packaging:
-    name: "Deploy to Packaging"
+    name: "Deploy to Packaging" 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
