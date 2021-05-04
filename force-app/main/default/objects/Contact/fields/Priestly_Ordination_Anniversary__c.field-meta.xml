@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priestly_Ordination_Anniversary__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ 
+YEAR(TODAY())*10000+MONTH(TODAY())*100+DAY(TODAY())  &lt;  YEAR(TODAY())*10000+MONTH( Date_of_Presbyteral_Ordination__c  )*100+DAY(Date_of_Presbyteral_Ordination__c),
+ 
+DATE(YEAR(TODAY()),MONTH(Date_of_Presbyteral_Ordination__c),DAY(Date_of_Presbyteral_Ordination__c)),
+ 
+DATE(YEAR(TODAY()+365),MONTH(Date_of_Presbyteral_Ordination__c),DAY(Date_of_Presbyteral_Ordination__c))
+ 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Priestly Ordination Anniversary</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>
