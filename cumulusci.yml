@@ -224,11 +224,11 @@ tasks:
                 - record_type: Immigration_Status__c.Permit
                   default: true
 
-    deploy_dev_config:
-        description: Deploys the post-install configuration for an unmanaged DE org
-        class_path: cumulusci.tasks.salesforce.Deploy
-        options:
-            path: unpackaged/config/dev
+  deploy_dev_config:
+      description: Deploys the post-install configuration for an unmanaged DE org
+      class_path: cumulusci.tasks.salesforce.Deploy
+      options:
+          path: unpackaged/config/dev
 
 flows:
 
