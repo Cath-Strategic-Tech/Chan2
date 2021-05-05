@@ -194,6 +194,7 @@ tasks:
   update_admin_profile:
         # description: Retrieves, edits, and redeploys the System Administrator profile with full FLS perms for all objects/fields. Also sets record type visibilities.
       options:
+            package_xml: lib/admin_profile.xml
             record_types:
                 - record_type: "Contact.Lay_Person"
                   default: true
@@ -223,6 +224,12 @@ tasks:
                 - record_type: Immigration_Status__c.Permit
                   default: true
 
+  deploy_dev_config:
+      description: Deploys the post-install configuration for an unmanaged DE org
+      class_path: cumulusci.tasks.salesforce.Deploy
+      options:
+          path: unpackaged/config/dev
+
 flows:
 
   dependencies:
@@ -235,15 +242,19 @@ flows:
   config_dev:
     steps:
         3:
+          task: deploy_dev_config
+        4:
           task: load_dataset
-        4: 
+        5: 
           task: assign_permission_sets
 
   config_qa:
     steps:
         3:
+          task: deploy_dev_config
+        4:
           task: load_dataset
-        4: 
+        5: 
           task: assign_permission_sets
   
   load_data:
