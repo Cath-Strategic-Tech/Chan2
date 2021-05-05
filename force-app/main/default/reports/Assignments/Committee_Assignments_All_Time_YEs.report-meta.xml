@@ -32,7 +32,6 @@
             <operator>equals</operator>
             <value>Assignment__c.Committee</value>
         </criteriaItems>
-        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>
