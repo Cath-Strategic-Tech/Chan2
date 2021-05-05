@@ -1,3 +1,5 @@
+[![Package Test](https://github.com/Cath-Strategic-Tech/Chan2/actions/workflows/package_test.yml/badge.svg)](https://github.com/Cath-Strategic-Tech/Chan2/actions/workflows/package_test.yml)
+
 # Chancery App (Chan2)
 
 A Salesforce NPSP-dependent app design to support the needs of Roman Catholic Diocese, but by the Strategic Technology team at the Archdiocese of Vancouver. 
