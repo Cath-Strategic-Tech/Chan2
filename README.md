@@ -1,4 +1,4 @@
-[![Package Test](https://github.com/Cath-Strategic-Tech/Chan2/actions/workflows/package_test.yml/badge.svg)](https://github.com/Cath-Strategic-Tech/Chan2/actions/workflows/package_test.yml)
+[![Latest Build](https://github.com/Cath-Strategic-Tech/Chan2/actions/workflows/main.yml/badge.svg)](https://github.com/Cath-Strategic-Tech/Chan2/actions/workflows/main.yml)    [![Beta Installation Test](https://github.com/Cath-Strategic-Tech/Chan2/actions/workflows/package_test.yml/badge.svg)](https://github.com/Cath-Strategic-Tech/Chan2/actions/workflows/package_test.yml)
 
 # Chancery App (Chan2)
 
