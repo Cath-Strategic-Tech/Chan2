@@ -1,1 +1,11 @@
-{"packageDirectories": [{"path": "force-app", "default": true}], "namespace": "Chan2", "sourceApiVersion": "50.0"}
+{
+  "packageDirectories": [
+  { "path": "force-app", "default": true }
+  ],
+    
+  "namespace": "Chan2", 
+  "sourceApiVersion": "50.0",
+  "postInstallUrl": "https://github.com/Cath-Strategic-Tech/Chan2/releases", 
+  "releaseNotesUrl": "https://github.com/Cath-Strategic-Tech/Chan2/releases"
+
+  }
