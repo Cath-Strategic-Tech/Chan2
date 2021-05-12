@@ -14,10 +14,10 @@ To work on this project in a scratch org:
 
 ## Post-Intall Instructions
 
-###Configuration
+### Configuration
 1. Review all page layouts and add custom fields where appropriate.
 
-###User Setup
+### User Setup
 1. (Optional) Create a Chancery Profile by duplicating the Standard User Profile.
 2. Create new User Accounts for staff, assign them to Chancery Profile.
 3. Assig new Users the Chancery Permission Set
