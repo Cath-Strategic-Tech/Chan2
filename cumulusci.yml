@@ -9,6 +9,11 @@ project:
         - github: 'https://github.com/SalesforceFoundation/NPSP'
     git:
         default_branch: 'main'
+        release_notes:
+            parsers:
+                7: 
+                    class_path: cumulusci.tasks.release_notes.parser.GithubLinesParser
+                    title: Post-Install Instructions
     source_format: sfdx
 
 tasks:
