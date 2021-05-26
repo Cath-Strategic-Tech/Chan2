@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clergy_Agreement</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Agreements_Compact_Layout</compactLayoutAssignment>
+    <description>Agreement with international diocese to lend a clergyperson to serve in local diocese.</description>
+    <label>Clergy Agreement</label>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Process</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
