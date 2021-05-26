@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entrustment</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Agreements_Compact_Layout</compactLayoutAssignment>
+    <description>Agreement to formally entrust a parish&apos;s administration to a Religious Congregation.</description>
+    <label>Entrustment</label>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Process</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
