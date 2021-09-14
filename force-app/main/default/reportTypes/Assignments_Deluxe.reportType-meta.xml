@@ -1562,11 +1562,6 @@
             <field>Account__c.Website</field>
             <table>Assignment__c</table>
         </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Account__c.YearStarted</field>
-            <table>Assignment__c</table>
-        </columns>
         <masterLabel>Account</masterLabel>
     </sections>
     <sections>
