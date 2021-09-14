@@ -26,9 +26,12 @@
     <tabs>Committee__c</tabs>
     <tabs>Assignment__c</tabs>
     <tabs>npe5__Affiliation__c</tabs>
+    <tabs>npe4__Relationship__c</tabs>
+    <tabs>Agreements__c</tabs>
     <tabs>Immigration_Status__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Task</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Chancery_Office_UtilityBar</utilityBar>
 </CustomApplication>
