@@ -145,24 +145,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Agreements__c.Assigned_Account__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>Agreements__c.Comments__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Agreements__c.End_Date__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>Agreements__c.Lending_Diocese_Congregation__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Agreements__c.Partnering_Account__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Agreements__c.Signing_Superior_External__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>Agreements__c.Sojourning_Clergy_Religious__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -171,13 +166,18 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Agreements__c.Start_Date__c</field>
+        <field>Agreements__c.Superior_External__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Agreements__c.Visiting_Contact__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>Agreements__c.Valid_From__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Agreements__c.Valid_Until__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -486,15 +486,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <recordType>Agreements__c.Clergy_Agreement</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>Agreements__c.Entrustment</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>Agreements__c.Religious_Contract</recordType>
+        <recordType>Agreements__c.Agreement</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>

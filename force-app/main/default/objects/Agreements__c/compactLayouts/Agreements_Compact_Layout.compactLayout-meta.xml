@@ -4,10 +4,5 @@
     <fields>Name</fields>
     <fields>RecordTypeId</fields>
     <fields>Stage__c</fields>
-    <fields>Visiting_Contact__c</fields>
-    <fields>Partnering_Account__c</fields>
-    <fields>Assigned_Account__c</fields>
-    <fields>Start_Date__c</fields>
-    <fields>End_Date__c</fields>
     <label>Agreements Compact Layout</label>
 </CompactLayout>
