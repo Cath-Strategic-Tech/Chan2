@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sojourning_Clergy_Religious__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Clergy or Religious subject in the Agreement, who will be sojourning in the local diocese.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Clergy or Religious subject in the Agreement, who will be sojourning in the local diocese.</inlineHelpText>
+    <label>Sojourning Clergy/Religious</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Agreements (Sojourning Clergy/Religious)</relationshipLabel>
+    <relationshipName>Agreements1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
